@@ -1,0 +1,3638 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Load Test Results</title>
+<style type="text/css">
+				body {
+					font:normal 68% verdana,arial,helvetica;
+					color:#000000;
+				}
+				table tr td, table tr th {
+					font-size: 68%;
+				}
+				table.details tr th{
+					font-weight: bold;
+					text-align:left;
+					background:#a6caf0;
+					white-space: nowrap;
+				}
+				table.details tr td{
+					background:#eeeee0;
+					white-space: nowrap;
+				}
+				h1 {
+					margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+				}
+				h2 {
+					margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+				}
+				h3 {
+					margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+				}
+				.Failure {
+					font-weight:bold; color:red;
+				}
+				
+	
+				img
+				{
+				  border-width: 0px;
+				}
+				
+				.expand_link
+				{
+				   position=absolute;
+				   right: 0px;
+				   width: 27px;
+				   top: 1px;
+				   height: 27px;
+				}
+				
+				.page_details
+				{
+				   display: none;
+				}
+                                
+                                .page_details_expanded
+                                {
+                                    display: block;
+                                    display/* hide this definition from  IE5/6 */: table-row;
+                                }
+
+
+			</style>
+<script language="JavaScript">
+                           function expand(details_id)
+			   {
+			      
+			      document.getElementById(details_id).className = "page_details_expanded";
+			   }
+			   
+			   function collapse(details_id)
+			   {
+			      
+			      document.getElementById(details_id).className = "page_details";
+			   }
+			   
+			   function change(details_id)
+			   {
+			      if(document.getElementById(details_id+"_image").src.match("expand"))
+			      {
+			         document.getElementById(details_id+"_image").src = "collapse.jpg";
+			         expand(details_id);
+			      }
+			      else
+			      {
+			         document.getElementById(details_id+"_image").src = "expand.jpg";
+			         collapse(details_id);
+			      } 
+                           }
+			</script>
+</head>
+<body>
+<h1>Load Test Results</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://jakarta.apache.org/jmeter">JMeter</a> and <a href="http://ant.apache.org">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th>
+</tr>
+<tr valign="top" class="">
+<td>208</td><td>0</td><td>100.00%</td><td>496 ms</td><td>165 ms</td><td>4220 ms</td>
+</tr>
+</table>
+<hr align="left" width="95%" size="1">
+<h2>Pages</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>URL</th><th>Tests</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th><th></th>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-offer-management/version</td><td>1</td><td>0</td><td>100.00%</td><td>2057 ms</td><td>2057 ms</td><td>2057 ms</td><td align="center"><a href="javascript:change('page_details_1')"><img alt="expand/collapse" src="expand.jpg" id="page_details_1_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_1">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-offer-management/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-offer-management 8-1</td><td>1</td><td align="right">2057</td><td align="right">692</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-category/health</td><td>1</td><td>0</td><td>100.00%</td><td>2042 ms</td><td>2042 ms</td><td>2042 ms</td><td align="center"><a href="javascript:change('page_details_2')"><img alt="expand/collapse" src="expand.jpg" id="page_details_2_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_2">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-category/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">2042</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/search/suggested_searches AR</td><td>1</td><td>0</td><td>100.00%</td><td>2048 ms</td><td>2048 ms</td><td>2048 ms</td><td align="center"><a href="javascript:change('page_details_3')"><img alt="expand/collapse" src="expand.jpg" id="page_details_3_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_3">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/search/suggested_searches AR"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/search 15-1</td><td>1</td><td align="right">2048</td><td align="right">495</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST user-management/user/login email</td><td>9</td><td>0</td><td>100.00%</td><td>1818 ms</td><td>295 ms</td><td>2861 ms</td><td align="center"><a href="javascript:change('page_details_4')"><img alt="expand/collapse" src="expand.jpg" id="page_details_4_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_4">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST user-management/user/login email"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>account 5-1</td><td>1</td><td align="right">2219</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+<tr>
+<td>customer-experience/returns 18-1</td><td>2</td><td align="right">2170</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+<tr>
+<td>seller 1-1</td><td>3</td><td align="right">2217</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+<tr>
+<td>customer-experience/inventory 20-1</td><td>4</td><td align="right">2817</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+<tr>
+<td>customer-experience/wallet 14-1</td><td>5</td><td align="right">2857</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+<tr>
+<td>customer-experience/sellers 16-1</td><td>6</td><td align="right">2861</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+<tr>
+<td>customer-experience/account 19-1</td><td>7</td><td align="right">409</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+<tr>
+<td>cp-returns 6-1</td><td>8</td><td align="right">518</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>9</td><td align="right">295</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-category/version</td><td>1</td><td>0</td><td>100.00%</td><td>173 ms</td><td>173 ms</td><td>173 ms</td><td align="center"><a href="javascript:change('page_details_5')"><img alt="expand/collapse" src="expand.jpg" id="page_details_5_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_5">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-category/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">173</td><td align="right">687</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-offer-management/health</td><td>1</td><td>0</td><td>100.00%</td><td>196 ms</td><td>196 ms</td><td>196 ms</td><td align="center"><a href="javascript:change('page_details_6')"><img alt="expand/collapse" src="expand.jpg" id="page_details_6_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_6">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-offer-management/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-offer-management 8-1</td><td>1</td><td align="right">196</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET random-categories</td><td>1</td><td>0</td><td>100.00%</td><td>193 ms</td><td>193 ms</td><td>193 ms</td><td align="center"><a href="javascript:change('page_details_7')"><img alt="expand/collapse" src="expand.jpg" id="page_details_7_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_7">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET random-categories"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">193</td><td align="right">679</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/returns/returnable_items</td><td>1</td><td>0</td><td>100.00%</td><td>299 ms</td><td>299 ms</td><td>299 ms</td><td align="center"><a href="javascript:change('page_details_8')"><img alt="expand/collapse" src="expand.jpg" id="page_details_8_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_8">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/returns/returnable_items"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/returns 18-1</td><td>1</td><td align="right">299</td><td align="right">675</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET microservice-auth/health</td><td>1</td><td>0</td><td>100.00%</td><td>2668 ms</td><td>2668 ms</td><td>2668 ms</td><td align="center"><a href="javascript:change('page_details_9')"><img alt="expand/collapse" src="expand.jpg" id="page_details_9_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_9">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET microservice-auth/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>microservice-auth 11-1</td><td>1</td><td align="right">2668</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories</td><td>1</td><td>0</td><td>100.00%</td><td>170 ms</td><td>170 ms</td><td>170 ms</td><td align="center"><a href="javascript:change('page_details_10')"><img alt="expand/collapse" src="expand.jpg" id="page_details_10_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_10">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">170</td><td align="right">852</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/search EN</td><td>1</td><td>0</td><td>100.00%</td><td>570 ms</td><td>570 ms</td><td>570 ms</td><td align="center"><a href="javascript:change('page_details_11')"><img alt="expand/collapse" src="expand.jpg" id="page_details_11_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_11">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/search EN"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/search 15-1</td><td>1</td><td align="right">570</td><td align="right">17052</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET user-management/health</td><td>1</td><td>0</td><td>100.00%</td><td>2712 ms</td><td>2712 ms</td><td>2712 ms</td><td align="center"><a href="javascript:change('page_details_12')"><img alt="expand/collapse" src="expand.jpg" id="page_details_12_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_12">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET user-management/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>1</td><td align="right">2712</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/version</td><td>1</td><td>0</td><td>100.00%</td><td>2685 ms</td><td>2685 ms</td><td>2685 ms</td><td align="center"><a href="javascript:change('page_details_13')"><img alt="expand/collapse" src="expand.jpg" id="page_details_13_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_13">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/account 19-1</td><td>1</td><td align="right">2685</td><td align="right">693</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET wishlist/version</td><td>1</td><td>0</td><td>100.00%</td><td>2720 ms</td><td>2720 ms</td><td>2720 ms</td><td align="center"><a href="javascript:change('page_details_14')"><img alt="expand/collapse" src="expand.jpg" id="page_details_14_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_14">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET wishlist/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>wishlist 3-1</td><td>1</td><td align="right">2720</td><td align="right">683</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET wallet/version</td><td>1</td><td>0</td><td>100.00%</td><td>2737 ms</td><td>2737 ms</td><td>2737 ms</td><td align="center"><a href="javascript:change('page_details_15')"><img alt="expand/collapse" src="expand.jpg" id="page_details_15_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_15">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET wallet/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>wallet 2-1</td><td>1</td><td align="right">2737</td><td align="right">682</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-ordermanagement/version</td><td>1</td><td>0</td><td>100.00%</td><td>2730 ms</td><td>2730 ms</td><td>2730 ms</td><td align="center"><a href="javascript:change('page_details_16')"><img alt="expand/collapse" src="expand.jpg" id="page_details_16_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_16">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-ordermanagement/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-ordermanagement 9-1</td><td>1</td><td align="right">2730</td><td align="right">693</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-review/version</td><td>1</td><td>0</td><td>100.00%</td><td>2723 ms</td><td>2723 ms</td><td>2723 ms</td><td align="center"><a href="javascript:change('page_details_17')"><img alt="expand/collapse" src="expand.jpg" id="page_details_17_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_17">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-review/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-review 13-1</td><td>1</td><td align="right">2723</td><td align="right">688</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET consumer-profile/version</td><td>1</td><td>0</td><td>100.00%</td><td>2727 ms</td><td>2727 ms</td><td>2727 ms</td><td align="center"><a href="javascript:change('page_details_18')"><img alt="expand/collapse" src="expand.jpg" id="page_details_18_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_18">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET consumer-profile/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>consumer-profile 12-1</td><td>1</td><td align="right">2727</td><td align="right">689</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/reviews/91331595_10000000000102_0/all</td><td>1</td><td>0</td><td>100.00%</td><td>2717 ms</td><td>2717 ms</td><td>2717 ms</td><td align="center"><a href="javascript:change('page_details_19')"><img alt="expand/collapse" src="expand.jpg" id="page_details_19_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_19">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/reviews/91331595_10000000000102_0/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/reviews 17-1</td><td>1</td><td align="right">2717</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-returns/version</td><td>1</td><td>0</td><td>100.00%</td><td>2747 ms</td><td>2747 ms</td><td>2747 ms</td><td align="center"><a href="javascript:change('page_details_20')"><img alt="expand/collapse" src="expand.jpg" id="page_details_20_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_20">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-returns/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-returns 6-1</td><td>1</td><td align="right">2747</td><td align="right">687</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-cart/version</td><td>1</td><td>0</td><td>100.00%</td><td>2753 ms</td><td>2753 ms</td><td>2753 ms</td><td align="center"><a href="javascript:change('page_details_21')"><img alt="expand/collapse" src="expand.jpg" id="page_details_21_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_21">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-cart/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-cart 4-1</td><td>1</td><td align="right">2753</td><td align="right">684</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET microservice-auth/version</td><td>1</td><td>0</td><td>100.00%</td><td>174 ms</td><td>174 ms</td><td>174 ms</td><td align="center"><a href="javascript:change('page_details_22')"><img alt="expand/collapse" src="expand.jpg" id="page_details_22_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_22">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET microservice-auth/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>microservice-auth 11-1</td><td>1</td><td align="right">174</td><td align="right">691</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/toys</td><td>1</td><td>0</td><td>100.00%</td><td>174 ms</td><td>174 ms</td><td>174 ms</td><td align="center"><a href="javascript:change('page_details_23')"><img alt="expand/collapse" src="expand.jpg" id="page_details_23_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_23">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/toys"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">174</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET user-management/version</td><td>1</td><td>0</td><td>100.00%</td><td>180 ms</td><td>180 ms</td><td>180 ms</td><td align="center"><a href="javascript:change('page_details_24')"><img alt="expand/collapse" src="expand.jpg" id="page_details_24_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_24">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET user-management/version"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>1</td><td align="right">180</td><td align="right">688</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET consumer-profile/health</td><td>1</td><td>0</td><td>100.00%</td><td>172 ms</td><td>172 ms</td><td>172 ms</td><td align="center"><a href="javascript:change('page_details_25')"><img alt="expand/collapse" src="expand.jpg" id="page_details_25_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_25">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET consumer-profile/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>consumer-profile 12-1</td><td>1</td><td align="right">172</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-cart/health</td><td>1</td><td>0</td><td>100.00%</td><td>172 ms</td><td>172 ms</td><td>172 ms</td><td align="center"><a href="javascript:change('page_details_26')"><img alt="expand/collapse" src="expand.jpg" id="page_details_26_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_26">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-cart/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-cart 4-1</td><td>1</td><td align="right">172</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-ordermanagement/health</td><td>1</td><td>0</td><td>100.00%</td><td>193 ms</td><td>193 ms</td><td>193 ms</td><td align="center"><a href="javascript:change('page_details_27')"><img alt="expand/collapse" src="expand.jpg" id="page_details_27_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_27">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-ordermanagement/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-ordermanagement 9-1</td><td>1</td><td align="right">193</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-review/health</td><td>1</td><td>0</td><td>100.00%</td><td>192 ms</td><td>192 ms</td><td>192 ms</td><td align="center"><a href="javascript:change('page_details_28')"><img alt="expand/collapse" src="expand.jpg" id="page_details_28_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_28">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-review/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-review 13-1</td><td>1</td><td align="right">192</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/health</td><td>1</td><td>0</td><td>100.00%</td><td>209 ms</td><td>209 ms</td><td>209 ms</td><td align="center"><a href="javascript:change('page_details_29')"><img alt="expand/collapse" src="expand.jpg" id="page_details_29_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_29">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/account 19-1</td><td>1</td><td align="right">209</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET wallet/health</td><td>1</td><td>0</td><td>100.00%</td><td>196 ms</td><td>196 ms</td><td>196 ms</td><td align="center"><a href="javascript:change('page_details_30')"><img alt="expand/collapse" src="expand.jpg" id="page_details_30_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_30">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET wallet/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>wallet 2-1</td><td>1</td><td align="right">196</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-returns/health</td><td>1</td><td>0</td><td>100.00%</td><td>210 ms</td><td>210 ms</td><td>210 ms</td><td align="center"><a href="javascript:change('page_details_31')"><img alt="expand/collapse" src="expand.jpg" id="page_details_31_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_31">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-returns/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-returns 6-1</td><td>1</td><td align="right">210</td><td align="right">482</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/baby</td><td>1</td><td>0</td><td>100.00%</td><td>173 ms</td><td>173 ms</td><td>173 ms</td><td align="center"><a href="javascript:change('page_details_32')"><img alt="expand/collapse" src="expand.jpg" id="page_details_32_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_32">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/baby"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">173</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/wallet/payment_instruments</td><td>1</td><td>0</td><td>100.00%</td><td>191 ms</td><td>191 ms</td><td>191 ms</td><td align="center"><a href="javascript:change('page_details_33')"><img alt="expand/collapse" src="expand.jpg" id="page_details_33_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_33">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/wallet/payment_instruments"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/wallet 14-1</td><td>1</td><td align="right">191</td><td align="right">663</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-review/reviews/91331595_10000000000102_0</td><td>1</td><td>0</td><td>100.00%</td><td>174 ms</td><td>174 ms</td><td>174 ms</td><td align="center"><a href="javascript:change('page_details_34')"><img alt="expand/collapse" src="expand.jpg" id="page_details_34_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_34">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-review/reviews/91331595_10000000000102_0"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-review 13-1</td><td>1</td><td align="right">174</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/health</td><td>1</td><td>0</td><td>100.00%</td><td>171 ms</td><td>171 ms</td><td>171 ms</td><td align="center"><a href="javascript:change('page_details_35')"><img alt="expand/collapse" src="expand.jpg" id="page_details_35_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_35">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">171</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/search AR</td><td>1</td><td>0</td><td>100.00%</td><td>548 ms</td><td>548 ms</td><td>548 ms</td><td align="center"><a href="javascript:change('page_details_36')"><img alt="expand/collapse" src="expand.jpg" id="page_details_36_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_36">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/search AR"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/search 15-1</td><td>1</td><td align="right">548</td><td align="right">16822</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-review/reviews/brief</td><td>1</td><td>0</td><td>100.00%</td><td>172 ms</td><td>172 ms</td><td>172 ms</td><td align="center"><a href="javascript:change('page_details_37')"><img alt="expand/collapse" src="expand.jpg" id="page_details_37_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_37">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-review/reviews/brief"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-review 13-1</td><td>1</td><td align="right">172</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/wallet/instruments</td><td>1</td><td>0</td><td>100.00%</td><td>231 ms</td><td>231 ms</td><td>231 ms</td><td align="center"><a href="javascript:change('page_details_38')"><img alt="expand/collapse" src="expand.jpg" id="page_details_38_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_38">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/wallet/instruments"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/wallet 14-1</td><td>1</td><td align="right">231</td><td align="right">663</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET seller/sellers</td><td>3</td><td>0</td><td>100.00%</td><td>661 ms</td><td>436 ms</td><td>1077 ms</td><td align="center"><a href="javascript:change('page_details_39')"><img alt="expand/collapse" src="expand.jpg" id="page_details_39_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_39">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET seller/sellers"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/inventory 20-1</td><td>1</td><td align="right">471</td><td align="right">924</td><td align="center">true</td>
+</tr>
+<tr>
+<td>customer-experience/sellers 16-1</td><td>2</td><td align="right">436</td><td align="right">924</td><td align="center">true</td>
+</tr>
+<tr>
+<td>seller 1-1</td><td>3</td><td align="right">1077</td><td align="right">924</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST microservice-auth/token</td><td>2</td><td>0</td><td>100.00%</td><td>460 ms</td><td>439 ms</td><td>482 ms</td><td align="center"><a href="javascript:change('page_details_40')"><img alt="expand/collapse" src="expand.jpg" id="page_details_40_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_40">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST microservice-auth/token"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>microservice-auth 11-1</td><td>1</td><td align="right">482</td><td align="right">1243</td><td align="center">true</td>
+</tr>
+<tr>
+<td>wallet 2-1</td><td>2</td><td align="right">439</td><td align="right">1245</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST user-management/user/login</td><td>2</td><td>0</td><td>100.00%</td><td>451 ms</td><td>419 ms</td><td>483 ms</td><td align="center"><a href="javascript:change('page_details_41')"><img alt="expand/collapse" src="expand.jpg" id="page_details_41_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_41">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST user-management/user/login"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>wallet 2-1</td><td>1</td><td align="right">419</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+<tr>
+<td>cp-ordermanagement 9-1</td><td>2</td><td align="right">483</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/beauty</td><td>1</td><td>0</td><td>100.00%</td><td>166 ms</td><td>166 ms</td><td>166 ms</td><td align="center"><a href="javascript:change('page_details_42')"><img alt="expand/collapse" src="expand.jpg" id="page_details_42_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_42">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/beauty"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">166</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST user-management/user/login mobile</td><td>2</td><td>0</td><td>100.00%</td><td>400 ms</td><td>296 ms</td><td>503 ms</td><td align="center"><a href="javascript:change('page_details_43')"><img alt="expand/collapse" src="expand.jpg" id="page_details_43_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_43">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST user-management/user/login mobile"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>consumer-profile 12-1</td><td>1</td><td align="right">503</td><td align="right">1096</td><td align="center">true</td>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>2</td><td align="right">296</td><td align="right">1095</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/account/one_click_setting</td><td>1</td><td>0</td><td>100.00%</td><td>179 ms</td><td>179 ms</td><td>179 ms</td><td align="center"><a href="javascript:change('page_details_44')"><img alt="expand/collapse" src="expand.jpg" id="page_details_44_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_44">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/account/one_click_setting"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/account 19-1</td><td>1</td><td align="right">179</td><td align="right">721</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/sports</td><td>1</td><td>0</td><td>100.00%</td><td>168 ms</td><td>168 ms</td><td>168 ms</td><td align="center"><a href="javascript:change('page_details_45')"><img alt="expand/collapse" src="expand.jpg" id="page_details_45_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_45">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/sports"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">168</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET wallet/wallet</td><td>1</td><td>0</td><td>100.00%</td><td>168 ms</td><td>168 ms</td><td>168 ms</td><td align="center"><a href="javascript:change('page_details_46')"><img alt="expand/collapse" src="expand.jpg" id="page_details_46_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_46">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET wallet/wallet"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>wallet 2-1</td><td>1</td><td align="right">168</td><td align="right">680</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET seller/sellers/3914851640</td><td>2</td><td>0</td><td>100.00%</td><td>246 ms</td><td>227 ms</td><td>265 ms</td><td align="center"><a href="javascript:change('page_details_47')"><img alt="expand/collapse" src="expand.jpg" id="page_details_47_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_47">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET seller/sellers/3914851640"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>seller 1-1</td><td>1</td><td align="right">265</td><td align="right">922</td><td align="center">true</td>
+</tr>
+<tr>
+<td>seller 1-1</td><td>2</td><td align="right">227</td><td align="right">922</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET consumer-profile/consumers</td><td>1</td><td>0</td><td>100.00%</td><td>170 ms</td><td>170 ms</td><td>170 ms</td><td align="center"><a href="javascript:change('page_details_48')"><img alt="expand/collapse" src="expand.jpg" id="page_details_48_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_48">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET consumer-profile/consumers"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>consumer-profile 12-1</td><td>1</td><td align="right">170</td><td align="right">885</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/sellers/3914851640/offers</td><td>1</td><td>0</td><td>100.00%</td><td>284 ms</td><td>284 ms</td><td>284 ms</td><td align="center"><a href="javascript:change('page_details_49')"><img alt="expand/collapse" src="expand.jpg" id="page_details_49_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_49">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/sellers/3914851640/offers"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/sellers 16-1</td><td>1</td><td align="right">284</td><td align="right">527</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/inventory/products</td><td>1</td><td>0</td><td>100.00%</td><td>299 ms</td><td>299 ms</td><td>299 ms</td><td align="center"><a href="javascript:change('page_details_50')"><img alt="expand/collapse" src="expand.jpg" id="page_details_50_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_50">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/inventory/products"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/inventory 20-1</td><td>1</td><td align="right">299</td><td align="right">1865</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-returns/return-order/customer-id/b2171846-5ec1-4026-a0eb-1b49d45744b2</td><td>1</td><td>0</td><td>100.00%</td><td>170 ms</td><td>170 ms</td><td>170 ms</td><td align="center"><a href="javascript:change('page_details_51')"><img alt="expand/collapse" src="expand.jpg" id="page_details_51_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_51">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-returns/return-order/customer-id/b2171846-5ec1-4026-a0eb-1b49d45744b2"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-returns 6-1</td><td>1</td><td align="right">170</td><td align="right">481</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/fashion</td><td>1</td><td>0</td><td>100.00%</td><td>169 ms</td><td>169 ms</td><td>169 ms</td><td align="center"><a href="javascript:change('page_details_52')"><img alt="expand/collapse" src="expand.jpg" id="page_details_52_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_52">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/fashion"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">169</td><td align="right">804</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET wallet/wallet/transactions</td><td>1</td><td>0</td><td>100.00%</td><td>168 ms</td><td>168 ms</td><td>168 ms</td><td align="center"><a href="javascript:change('page_details_53')"><img alt="expand/collapse" src="expand.jpg" id="page_details_53_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_53">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET wallet/wallet/transactions"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>wallet 2-1</td><td>1</td><td align="right">168</td><td align="right">1234</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST user-management/user/account email</td><td>1</td><td>0</td><td>100.00%</td><td>854 ms</td><td>854 ms</td><td>854 ms</td><td align="center"><a href="javascript:change('page_details_54')"><img alt="expand/collapse" src="expand.jpg" id="page_details_54_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_54">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST user-management/user/account email"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>1</td><td align="right">854</td><td align="right">514</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET consumer-profile/consumers/5c55afb5-3f89-44b5-a87b-0696b6133d79/public_info</td><td>1</td><td>0</td><td>100.00%</td><td>172 ms</td><td>172 ms</td><td>172 ms</td><td align="center"><a href="javascript:change('page_details_55')"><img alt="expand/collapse" src="expand.jpg" id="page_details_55_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_55">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET consumer-profile/consumers/5c55afb5-3f89-44b5-a87b-0696b6133d79/public_info"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>consumer-profile 12-1</td><td>1</td><td align="right">172</td><td align="right">542</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/sellers/3914851640/offers-count</td><td>1</td><td>0</td><td>100.00%</td><td>230 ms</td><td>230 ms</td><td>230 ms</td><td align="center"><a href="javascript:change('page_details_56')"><img alt="expand/collapse" src="expand.jpg" id="page_details_56_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_56">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/sellers/3914851640/offers-count"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/sellers 16-1</td><td>1</td><td align="right">230</td><td align="right">541</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/exclusive</td><td>1</td><td>0</td><td>100.00%</td><td>166 ms</td><td>166 ms</td><td>166 ms</td><td align="center"><a href="javascript:change('page_details_57')"><img alt="expand/collapse" src="expand.jpg" id="page_details_57_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_57">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/exclusive"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">166</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET wallet/wallet/transactions-with-instruments</td><td>1</td><td>0</td><td>100.00%</td><td>171 ms</td><td>171 ms</td><td>171 ms</td><td align="center"><a href="javascript:change('page_details_58')"><img alt="expand/collapse" src="expand.jpg" id="page_details_58_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_58">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET wallet/wallet/transactions-with-instruments"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>wallet 2-1</td><td>1</td><td align="right">171</td><td align="right">1426</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET consumer-profile/account/addresses</td><td>1</td><td>0</td><td>100.00%</td><td>173 ms</td><td>173 ms</td><td>173 ms</td><td align="center"><a href="javascript:change('page_details_59')"><img alt="expand/collapse" src="expand.jpg" id="page_details_59_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_59">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET consumer-profile/account/addresses"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>consumer-profile 12-1</td><td>1</td><td align="right">173</td><td align="right">753</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET seller/sellers/3914851640/offers</td><td>1</td><td>0</td><td>100.00%</td><td>220 ms</td><td>220 ms</td><td>220 ms</td><td align="center"><a href="javascript:change('page_details_60')"><img alt="expand/collapse" src="expand.jpg" id="page_details_60_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_60">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET seller/sellers/3914851640/offers"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>seller 1-1</td><td>1</td><td align="right">220</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/electronics</td><td>1</td><td>0</td><td>100.00%</td><td>166 ms</td><td>166 ms</td><td>166 ms</td><td align="center"><a href="javascript:change('page_details_61')"><img alt="expand/collapse" src="expand.jpg" id="page_details_61_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_61">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/electronics"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">166</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/sellers/3914851640/bulk-offers/sheet</td><td>1</td><td>0</td><td>100.00%</td><td>211 ms</td><td>211 ms</td><td>211 ms</td><td align="center"><a href="javascript:change('page_details_62')"><img alt="expand/collapse" src="expand.jpg" id="page_details_62_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_62">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/sellers/3914851640/bulk-offers/sheet"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/sellers 16-1</td><td>1</td><td align="right">211</td><td align="right">700</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST user-management/user/account mobile</td><td>1</td><td>0</td><td>100.00%</td><td>350 ms</td><td>350 ms</td><td>350 ms</td><td align="center"><a href="javascript:change('page_details_63')"><img alt="expand/collapse" src="expand.jpg" id="page_details_63_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_63">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST user-management/user/account mobile"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>1</td><td align="right">350</td><td align="right">514</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST consumer-profile/account/addresses/default</td><td>1</td><td>0</td><td>100.00%</td><td>175 ms</td><td>175 ms</td><td>175 ms</td><td align="center"><a href="javascript:change('page_details_64')"><img alt="expand/collapse" src="expand.jpg" id="page_details_64_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_64">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST consumer-profile/account/addresses/default"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>consumer-profile 12-1</td><td>1</td><td align="right">175</td><td align="right">418</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/home-office</td><td>1</td><td>0</td><td>100.00%</td><td>177 ms</td><td>177 ms</td><td>177 ms</td><td align="center"><a href="javascript:change('page_details_65')"><img alt="expand/collapse" src="expand.jpg" id="page_details_65_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_65">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/home-office"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">177</td><td align="right">994</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET seller/sellers/3914851640/bank-details</td><td>1</td><td>0</td><td>100.00%</td><td>216 ms</td><td>216 ms</td><td>216 ms</td><td align="center"><a href="javascript:change('page_details_66')"><img alt="expand/collapse" src="expand.jpg" id="page_details_66_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_66">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET seller/sellers/3914851640/bank-details"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>seller 1-1</td><td>1</td><td align="right">216</td><td align="right">635</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/sellers/3914851640/offers/search</td><td>1</td><td>0</td><td>100.00%</td><td>226 ms</td><td>226 ms</td><td>226 ms</td><td align="center"><a href="javascript:change('page_details_67')"><img alt="expand/collapse" src="expand.jpg" id="page_details_67_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_67">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/sellers/3914851640/offers/search"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/sellers 16-1</td><td>1</td><td align="right">226</td><td align="right">527</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST consumer-profile/account/addresses/deliverable</td><td>1</td><td>0</td><td>100.00%</td><td>171 ms</td><td>171 ms</td><td>171 ms</td><td align="center"><a href="javascript:change('page_details_68')"><img alt="expand/collapse" src="expand.jpg" id="page_details_68_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_68">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST consumer-profile/account/addresses/deliverable"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>consumer-profile 12-1</td><td>1</td><td align="right">171</td><td align="right">418</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/account/myorders</td><td>1</td><td>0</td><td>100.00%</td><td>795 ms</td><td>795 ms</td><td>795 ms</td><td align="center"><a href="javascript:change('page_details_69')"><img alt="expand/collapse" src="expand.jpg" id="page_details_69_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_69">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/account/myorders"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/account 19-1</td><td>1</td><td align="right">795</td><td align="right">25967</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/todays-deals</td><td>1</td><td>0</td><td>100.00%</td><td>166 ms</td><td>166 ms</td><td>166 ms</td><td align="center"><a href="javascript:change('page_details_70')"><img alt="expand/collapse" src="expand.jpg" id="page_details_70_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_70">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/todays-deals"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">166</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>PUT consumer-profile/account/language_preference</td><td>1</td><td>0</td><td>100.00%</td><td>173 ms</td><td>173 ms</td><td>173 ms</td><td align="center"><a href="javascript:change('page_details_71')"><img alt="expand/collapse" src="expand.jpg" id="page_details_71_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_71">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "PUT consumer-profile/account/language_preference"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>consumer-profile 12-1</td><td>1</td><td align="right">173</td><td align="right">418</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET seller/sellers/3914851640/identification-document</td><td>1</td><td>0</td><td>100.00%</td><td>215 ms</td><td>215 ms</td><td>215 ms</td><td align="center"><a href="javascript:change('page_details_72')"><img alt="expand/collapse" src="expand.jpg" id="page_details_72_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_72">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET seller/sellers/3914851640/identification-document"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>seller 1-1</td><td>1</td><td align="right">215</td><td align="right">615</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET wallet/wallets/b2171846-5ec1-4026-a0eb-1b49d45744b2</td><td>1</td><td>0</td><td>100.00%</td><td>170 ms</td><td>170 ms</td><td>170 ms</td><td align="center"><a href="javascript:change('page_details_73')"><img alt="expand/collapse" src="expand.jpg" id="page_details_73_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_73">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET wallet/wallets/b2171846-5ec1-4026-a0eb-1b49d45744b2"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>wallet 2-1</td><td>1</td><td align="right">170</td><td align="right">680</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/sellers/3914851640/order/search</td><td>1</td><td>0</td><td>100.00%</td><td>230 ms</td><td>230 ms</td><td>230 ms</td><td align="center"><a href="javascript:change('page_details_74')"><img alt="expand/collapse" src="expand.jpg" id="page_details_74_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_74">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/sellers/3914851640/order/search"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/sellers 16-1</td><td>1</td><td align="right">230</td><td align="right">527</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/watching_deals</td><td>1</td><td>0</td><td>100.00%</td><td>165 ms</td><td>165 ms</td><td>165 ms</td><td align="center"><a href="javascript:change('page_details_75')"><img alt="expand/collapse" src="expand.jpg" id="page_details_75_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_75">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/watching_deals"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">165</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST user-management/user/renew</td><td>1</td><td>0</td><td>100.00%</td><td>169 ms</td><td>169 ms</td><td>169 ms</td><td align="center"><a href="javascript:change('page_details_76')"><img alt="expand/collapse" src="expand.jpg" id="page_details_76_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_76">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST user-management/user/renew"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>1</td><td align="right">169</td><td align="right">847</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET wallet/wallets/b2171846-5ec1-4026-a0eb-1b49d45744b2/transactions</td><td>1</td><td>0</td><td>100.00%</td><td>172 ms</td><td>172 ms</td><td>172 ms</td><td align="center"><a href="javascript:change('page_details_77')"><img alt="expand/collapse" src="expand.jpg" id="page_details_77_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_77">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET wallet/wallets/b2171846-5ec1-4026-a0eb-1b49d45744b2/transactions"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>wallet 2-1</td><td>1</td><td align="right">172</td><td align="right">1262</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/account/myorders/45d1d5f0-fd6e-4a44-ad32-4d13e7564585</td><td>1</td><td>0</td><td>100.00%</td><td>324 ms</td><td>324 ms</td><td>324 ms</td><td align="center"><a href="javascript:change('page_details_78')"><img alt="expand/collapse" src="expand.jpg" id="page_details_78_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_78">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/account/myorders/45d1d5f0-fd6e-4a44-ad32-4d13e7564585"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/account 19-1</td><td>1</td><td align="right">324</td><td align="right">933</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET seller/sellers/3914851640/company-registration-document</td><td>1</td><td>0</td><td>100.00%</td><td>207 ms</td><td>207 ms</td><td>207 ms</td><td align="center"><a href="javascript:change('page_details_79')"><img alt="expand/collapse" src="expand.jpg" id="page_details_79_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_79">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET seller/sellers/3914851640/company-registration-document"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>seller 1-1</td><td>1</td><td align="right">207</td><td align="right">619</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/upcoming_deals</td><td>1</td><td>0</td><td>100.00%</td><td>165 ms</td><td>165 ms</td><td>165 ms</td><td align="center"><a href="javascript:change('page_details_80')"><img alt="expand/collapse" src="expand.jpg" id="page_details_80_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_80">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/upcoming_deals"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">165</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET user-management/user/5c55afb5-3f89-44b5-a87b-0696b6133d79</td><td>1</td><td>0</td><td>100.00%</td><td>169 ms</td><td>169 ms</td><td>169 ms</td><td align="center"><a href="javascript:change('page_details_81')"><img alt="expand/collapse" src="expand.jpg" id="page_details_81_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_81">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET user-management/user/5c55afb5-3f89-44b5-a87b-0696b6133d79"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>1</td><td align="right">169</td><td align="right">599</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET customer-experience/sellers/3914851640/payments/transactions/search</td><td>1</td><td>0</td><td>100.00%</td><td>224 ms</td><td>224 ms</td><td>224 ms</td><td align="center"><a href="javascript:change('page_details_82')"><img alt="expand/collapse" src="expand.jpg" id="page_details_82_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_82">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET customer-experience/sellers/3914851640/payments/transactions/search"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/sellers 16-1</td><td>1</td><td align="right">224</td><td align="right">527</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-ordermanagement/consumers/b2171846-5ec1-4026-a0eb-1b49d45744b2/orders</td><td>1</td><td>0</td><td>100.00%</td><td>1345 ms</td><td>1345 ms</td><td>1345 ms</td><td align="center"><a href="javascript:change('page_details_83')"><img alt="expand/collapse" src="expand.jpg" id="page_details_83_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_83">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-ordermanagement/consumers/b2171846-5ec1-4026-a0eb-1b49d45744b2/orders"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-ordermanagement 9-1</td><td>1</td><td align="right">1345</td><td align="right">85688</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET seller/sellers/3914851640/cancelled-cheque</td><td>1</td><td>0</td><td>100.00%</td><td>198 ms</td><td>198 ms</td><td>198 ms</td><td align="center"><a href="javascript:change('page_details_84')"><img alt="expand/collapse" src="expand.jpg" id="page_details_84_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_84">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET seller/sellers/3914851640/cancelled-cheque"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>seller 1-1</td><td>1</td><td align="right">198</td><td align="right">600</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/entertainment</td><td>1</td><td>0</td><td>100.00%</td><td>168 ms</td><td>168 ms</td><td>168 ms</td><td align="center"><a href="javascript:change('page_details_85')"><img alt="expand/collapse" src="expand.jpg" id="page_details_85_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_85">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/entertainment"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">168</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST cp-web-sit.nextcake.net/search EN</td><td>1</td><td>0</td><td>100.00%</td><td>1658 ms</td><td>1658 ms</td><td>1658 ms</td><td align="center"><a href="javascript:change('page_details_86')"><img alt="expand/collapse" src="expand.jpg" id="page_details_86_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_86">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST cp-web-sit.nextcake.net/search EN"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/search 15-1</td><td>1</td><td align="right">1658</td><td align="right">3958</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-ordermanagement/orders/8f152ede-01dd-4443-8f65-06a21d9ba47b</td><td>1</td><td>0</td><td>100.00%</td><td>246 ms</td><td>246 ms</td><td>246 ms</td><td align="center"><a href="javascript:change('page_details_87')"><img alt="expand/collapse" src="expand.jpg" id="page_details_87_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_87">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-ordermanagement/orders/8f152ede-01dd-4443-8f65-06a21d9ba47b"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-ordermanagement 9-1</td><td>1</td><td align="right">246</td><td align="right">1143</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/featured-brands</td><td>1</td><td>0</td><td>100.00%</td><td>166 ms</td><td>166 ms</td><td>166 ms</td><td align="center"><a href="javascript:change('page_details_88')"><img alt="expand/collapse" src="expand.jpg" id="page_details_88_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_88">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/featured-brands"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">166</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET user-management/user/b2171846-5ec1-4026-a0eb-1b49d45744b2</td><td>1</td><td>0</td><td>100.00%</td><td>166 ms</td><td>166 ms</td><td>166 ms</td><td align="center"><a href="javascript:change('page_details_89')"><img alt="expand/collapse" src="expand.jpg" id="page_details_89_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_89">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET user-management/user/b2171846-5ec1-4026-a0eb-1b49d45744b2"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>1</td><td align="right">166</td><td align="right">602</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/sports-recreation</td><td>1</td><td>0</td><td>100.00%</td><td>169 ms</td><td>169 ms</td><td>169 ms</td><td align="center"><a href="javascript:change('page_details_90')"><img alt="expand/collapse" src="expand.jpg" id="page_details_90_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_90">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/sports-recreation"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">169</td><td align="right">926</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-ordermanagement/consumers/b2171846-5ec1-4026-a0eb-1b49d45744b2/returnableItems</td><td>1</td><td>0</td><td>100.00%</td><td>257 ms</td><td>257 ms</td><td>257 ms</td><td align="center"><a href="javascript:change('page_details_91')"><img alt="expand/collapse" src="expand.jpg" id="page_details_91_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_91">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-ordermanagement/consumers/b2171846-5ec1-4026-a0eb-1b49d45744b2/returnableItems"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-ordermanagement 9-1</td><td>1</td><td align="right">257</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST user-management/user/logout</td><td>2</td><td>0</td><td>100.00%</td><td>173 ms</td><td>172 ms</td><td>174 ms</td><td align="center"><a href="javascript:change('page_details_92')"><img alt="expand/collapse" src="expand.jpg" id="page_details_92_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_92">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST user-management/user/logout"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>1</td><td align="right">174</td><td align="right">553</td><td align="center">true</td>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>2</td><td align="right">172</td><td align="right">553</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/health-beauty-family</td><td>1</td><td>0</td><td>100.00%</td><td>169 ms</td><td>169 ms</td><td>169 ms</td><td align="center"><a href="javascript:change('page_details_93')"><img alt="expand/collapse" src="expand.jpg" id="page_details_93_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_93">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/health-beauty-family"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">169</td><td align="right">760</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST cp-web-sit.nextcake.net/ar/search AR</td><td>1</td><td>0</td><td>100.00%</td><td>611 ms</td><td>611 ms</td><td>611 ms</td><td align="center"><a href="javascript:change('page_details_94')"><img alt="expand/collapse" src="expand.jpg" id="page_details_94_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_94">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST cp-web-sit.nextcake.net/ar/search AR"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>customer-experience/search 15-1</td><td>1</td><td align="right">611</td><td align="right">3958</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/entertainment-leisure</td><td>1</td><td>0</td><td>100.00%</td><td>166 ms</td><td>166 ms</td><td>166 ms</td><td align="center"><a href="javascript:change('page_details_95')"><img alt="expand/collapse" src="expand.jpg" id="page_details_95_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_95">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/entertainment-leisure"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">166</td><td align="right">735</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>POST user-management/user/social/facebook</td><td>1</td><td>0</td><td>100.00%</td><td>336 ms</td><td>336 ms</td><td>336 ms</td><td align="center"><a href="javascript:change('page_details_96')"><img alt="expand/collapse" src="expand.jpg" id="page_details_96_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_96">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "POST user-management/user/social/facebook"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>user-management/user 10-1</td><td>1</td><td align="right">336</td><td align="right">1098</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/electronics-appliances</td><td>1</td><td>0</td><td>100.00%</td><td>169 ms</td><td>169 ms</td><td>169 ms</td><td align="center"><a href="javascript:change('page_details_97')"><img alt="expand/collapse" src="expand.jpg" id="page_details_97_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_97">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/electronics-appliances"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">169</td><td align="right">702</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/pacifiers-teething-rings</td><td>1</td><td>0</td><td>100.00%</td><td>168 ms</td><td>168 ms</td><td>168 ms</td><td align="center"><a href="javascript:change('page_details_98')"><img alt="expand/collapse" src="expand.jpg" id="page_details_98_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_98">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/pacifiers-teething-rings"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">168</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/uncategorized-products</td><td>1</td><td>0</td><td>100.00%</td><td>224 ms</td><td>224 ms</td><td>224 ms</td><td align="center"><a href="javascript:change('page_details_99')"><img alt="expand/collapse" src="expand.jpg" id="page_details_99_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_99">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/uncategorized-products"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">224</td><td align="right">762</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/air-fresheners-deoderizers</td><td>1</td><td>0</td><td>100.00%</td><td>304 ms</td><td>304 ms</td><td>304 ms</td><td align="center"><a href="javascript:change('page_details_100')"><img alt="expand/collapse" src="expand.jpg" id="page_details_100_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_100">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/air-fresheners-deoderizers"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">304</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET cp-web-sit.nextcake.net/account/orders</td><td>1</td><td>0</td><td>100.00%</td><td>4220 ms</td><td>4220 ms</td><td>4220 ms</td><td align="center"><a href="javascript:change('page_details_101')"><img alt="expand/collapse" src="expand.jpg" id="page_details_101_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_101">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET cp-web-sit.nextcake.net/account/orders"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>account 5-1</td><td>1</td><td align="right">4220</td><td align="right">3958</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/toys/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>204 ms</td><td>204 ms</td><td>204 ms</td><td align="center"><a href="javascript:change('page_details_102')"><img alt="expand/collapse" src="expand.jpg" id="page_details_102_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_102">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/toys/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">204</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/baby/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>167 ms</td><td>167 ms</td><td>167 ms</td><td align="center"><a href="javascript:change('page_details_103')"><img alt="expand/collapse" src="expand.jpg" id="page_details_103_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_103">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/baby/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">167</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/health/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>166 ms</td><td>166 ms</td><td>166 ms</td><td align="center"><a href="javascript:change('page_details_104')"><img alt="expand/collapse" src="expand.jpg" id="page_details_104_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_104">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/health/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">166</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/beauty/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>376 ms</td><td>376 ms</td><td>376 ms</td><td align="center"><a href="javascript:change('page_details_105')"><img alt="expand/collapse" src="expand.jpg" id="page_details_105_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_105">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/beauty/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">376</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/sports/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_106')"><img alt="expand/collapse" src="expand.jpg" id="page_details_106_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_106">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/sports/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/fashion/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_107')"><img alt="expand/collapse" src="expand.jpg" id="page_details_107_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_107">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/fashion/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">2133</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/exclusive/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_108')"><img alt="expand/collapse" src="expand.jpg" id="page_details_108_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_108">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/exclusive/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/electronics/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>198 ms</td><td>198 ms</td><td>198 ms</td><td align="center"><a href="javascript:change('page_details_109')"><img alt="expand/collapse" src="expand.jpg" id="page_details_109_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_109">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/electronics/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">198</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/home-office/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>207 ms</td><td>207 ms</td><td>207 ms</td><td align="center"><a href="javascript:change('page_details_110')"><img alt="expand/collapse" src="expand.jpg" id="page_details_110_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_110">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/home-office/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">207</td><td align="right">3292</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/todays-deals/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>199 ms</td><td>199 ms</td><td>199 ms</td><td align="center"><a href="javascript:change('page_details_111')"><img alt="expand/collapse" src="expand.jpg" id="page_details_111_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_111">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/todays-deals/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">199</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/watching_deals/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>170 ms</td><td>170 ms</td><td>170 ms</td><td align="center"><a href="javascript:change('page_details_112')"><img alt="expand/collapse" src="expand.jpg" id="page_details_112_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_112">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/watching_deals/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">170</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/upcoming_deals/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>234 ms</td><td>234 ms</td><td>234 ms</td><td align="center"><a href="javascript:change('page_details_113')"><img alt="expand/collapse" src="expand.jpg" id="page_details_113_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_113">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/upcoming_deals/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">234</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/entertainment/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>201 ms</td><td>201 ms</td><td>201 ms</td><td align="center"><a href="javascript:change('page_details_114')"><img alt="expand/collapse" src="expand.jpg" id="page_details_114_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_114">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/entertainment/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">201</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/featured-brands/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_115')"><img alt="expand/collapse" src="expand.jpg" id="page_details_115_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_115">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/featured-brands/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/sports-recreation/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>169 ms</td><td>169 ms</td><td>169 ms</td><td align="center"><a href="javascript:change('page_details_116')"><img alt="expand/collapse" src="expand.jpg" id="page_details_116_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_116">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/sports-recreation/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">169</td><td align="right">1969</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/health-beauty-family/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>339 ms</td><td>339 ms</td><td>339 ms</td><td align="center"><a href="javascript:change('page_details_117')"><img alt="expand/collapse" src="expand.jpg" id="page_details_117_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_117">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/health-beauty-family/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">339</td><td align="right">1693</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/entertainment-leisure/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>205 ms</td><td>205 ms</td><td>205 ms</td><td align="center"><a href="javascript:change('page_details_118')"><img alt="expand/collapse" src="expand.jpg" id="page_details_118_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_118">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/entertainment-leisure/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">205</td><td align="right">2493</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/electronics-appliances/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>200 ms</td><td>200 ms</td><td>200 ms</td><td align="center"><a href="javascript:change('page_details_119')"><img alt="expand/collapse" src="expand.jpg" id="page_details_119_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_119">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/electronics-appliances/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">200</td><td align="right">1121</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/pacifiers-teething-rings/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>200 ms</td><td>200 ms</td><td>200 ms</td><td align="center"><a href="javascript:change('page_details_120')"><img alt="expand/collapse" src="expand.jpg" id="page_details_120_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_120">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/pacifiers-teething-rings/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">200</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/uncategorized-products/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>167 ms</td><td>167 ms</td><td>167 ms</td><td align="center"><a href="javascript:change('page_details_121')"><img alt="expand/collapse" src="expand.jpg" id="page_details_121_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_121">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/uncategorized-products/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">167</td><td align="right">762</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/air-fresheners-deoderizers/leaf</td><td>1</td><td>0</td><td>100.00%</td><td>238 ms</td><td>238 ms</td><td>238 ms</td><td align="center"><a href="javascript:change('page_details_122')"><img alt="expand/collapse" src="expand.jpg" id="page_details_122_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_122">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/air-fresheners-deoderizers/leaf"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">238</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/toys/all</td><td>1</td><td>0</td><td>100.00%</td><td>201 ms</td><td>201 ms</td><td>201 ms</td><td align="center"><a href="javascript:change('page_details_123')"><img alt="expand/collapse" src="expand.jpg" id="page_details_123_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_123">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/toys/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">201</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/baby/all</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_124')"><img alt="expand/collapse" src="expand.jpg" id="page_details_124_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_124">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/baby/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/health/all</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_125')"><img alt="expand/collapse" src="expand.jpg" id="page_details_125_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_125">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/health/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/beauty/all</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_126')"><img alt="expand/collapse" src="expand.jpg" id="page_details_126_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_126">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/beauty/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/sports/all</td><td>1</td><td>0</td><td>100.00%</td><td>201 ms</td><td>201 ms</td><td>201 ms</td><td align="center"><a href="javascript:change('page_details_127')"><img alt="expand/collapse" src="expand.jpg" id="page_details_127_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_127">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/sports/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">201</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/fashion/all</td><td>1</td><td>0</td><td>100.00%</td><td>170 ms</td><td>170 ms</td><td>170 ms</td><td align="center"><a href="javascript:change('page_details_128')"><img alt="expand/collapse" src="expand.jpg" id="page_details_128_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_128">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/fashion/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">170</td><td align="right">2323</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/exclusive/all</td><td>1</td><td>0</td><td>100.00%</td><td>168 ms</td><td>168 ms</td><td>168 ms</td><td align="center"><a href="javascript:change('page_details_129')"><img alt="expand/collapse" src="expand.jpg" id="page_details_129_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_129">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/exclusive/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">168</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/electronics/all</td><td>1</td><td>0</td><td>100.00%</td><td>372 ms</td><td>372 ms</td><td>372 ms</td><td align="center"><a href="javascript:change('page_details_130')"><img alt="expand/collapse" src="expand.jpg" id="page_details_130_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_130">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/electronics/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">372</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/home-office/all</td><td>1</td><td>0</td><td>100.00%</td><td>207 ms</td><td>207 ms</td><td>207 ms</td><td align="center"><a href="javascript:change('page_details_131')"><img alt="expand/collapse" src="expand.jpg" id="page_details_131_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_131">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/home-office/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">207</td><td align="right">3573</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/todays-deals/all</td><td>1</td><td>0</td><td>100.00%</td><td>197 ms</td><td>197 ms</td><td>197 ms</td><td align="center"><a href="javascript:change('page_details_132')"><img alt="expand/collapse" src="expand.jpg" id="page_details_132_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_132">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/todays-deals/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">197</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/watching_deals/all</td><td>1</td><td>0</td><td>100.00%</td><td>305 ms</td><td>305 ms</td><td>305 ms</td><td align="center"><a href="javascript:change('page_details_133')"><img alt="expand/collapse" src="expand.jpg" id="page_details_133_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_133">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/watching_deals/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">305</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/upcoming_deals/all</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_134')"><img alt="expand/collapse" src="expand.jpg" id="page_details_134_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_134">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/upcoming_deals/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/entertainment/all</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_135')"><img alt="expand/collapse" src="expand.jpg" id="page_details_135_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_135">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/entertainment/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/featured-brands/all</td><td>1</td><td>0</td><td>100.00%</td><td>303 ms</td><td>303 ms</td><td>303 ms</td><td align="center"><a href="javascript:change('page_details_136')"><img alt="expand/collapse" src="expand.jpg" id="page_details_136_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_136">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/featured-brands/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">303</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/sports-recreation/all</td><td>1</td><td>0</td><td>100.00%</td><td>205 ms</td><td>205 ms</td><td>205 ms</td><td align="center"><a href="javascript:change('page_details_137')"><img alt="expand/collapse" src="expand.jpg" id="page_details_137_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_137">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/sports-recreation/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">205</td><td align="right">2197</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/health-beauty-family/all</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_138')"><img alt="expand/collapse" src="expand.jpg" id="page_details_138_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_138">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/health-beauty-family/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">1811</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/entertainment-leisure/all</td><td>1</td><td>0</td><td>100.00%</td><td>204 ms</td><td>204 ms</td><td>204 ms</td><td align="center"><a href="javascript:change('page_details_139')"><img alt="expand/collapse" src="expand.jpg" id="page_details_139_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_139">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/entertainment-leisure/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">204</td><td align="right">2593</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/electronics-appliances/all</td><td>1</td><td>0</td><td>100.00%</td><td>200 ms</td><td>200 ms</td><td>200 ms</td><td align="center"><a href="javascript:change('page_details_140')"><img alt="expand/collapse" src="expand.jpg" id="page_details_140_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_140">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/electronics-appliances/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">200</td><td align="right">1188</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/pacifiers-teething-rings/all</td><td>1</td><td>0</td><td>100.00%</td><td>304 ms</td><td>304 ms</td><td>304 ms</td><td align="center"><a href="javascript:change('page_details_141')"><img alt="expand/collapse" src="expand.jpg" id="page_details_141_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_141">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/pacifiers-teething-rings/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">304</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/uncategorized-products/all</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_142')"><img alt="expand/collapse" src="expand.jpg" id="page_details_142_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_142">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/uncategorized-products/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">762</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET subcategories/air-fresheners-deoderizers/all</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_143')"><img alt="expand/collapse" src="expand.jpg" id="page_details_143_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_143">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET subcategories/air-fresheners-deoderizers/all"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/toys</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_144')"><img alt="expand/collapse" src="expand.jpg" id="page_details_144_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_144">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/toys"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/baby</td><td>1</td><td>0</td><td>100.00%</td><td>204 ms</td><td>204 ms</td><td>204 ms</td><td align="center"><a href="javascript:change('page_details_145')"><img alt="expand/collapse" src="expand.jpg" id="page_details_145_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_145">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/baby"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">204</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/health</td><td>1</td><td>0</td><td>100.00%</td><td>309 ms</td><td>309 ms</td><td>309 ms</td><td align="center"><a href="javascript:change('page_details_146')"><img alt="expand/collapse" src="expand.jpg" id="page_details_146_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_146">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">309</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/beauty</td><td>1</td><td>0</td><td>100.00%</td><td>196 ms</td><td>196 ms</td><td>196 ms</td><td align="center"><a href="javascript:change('page_details_147')"><img alt="expand/collapse" src="expand.jpg" id="page_details_147_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_147">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/beauty"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">196</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/sports</td><td>1</td><td>0</td><td>100.00%</td><td>205 ms</td><td>205 ms</td><td>205 ms</td><td align="center"><a href="javascript:change('page_details_148')"><img alt="expand/collapse" src="expand.jpg" id="page_details_148_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_148">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/sports"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">205</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/fashion</td><td>1</td><td>0</td><td>100.00%</td><td>303 ms</td><td>303 ms</td><td>303 ms</td><td align="center"><a href="javascript:change('page_details_149')"><img alt="expand/collapse" src="expand.jpg" id="page_details_149_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_149">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/fashion"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">303</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/exclusive</td><td>1</td><td>0</td><td>100.00%</td><td>167 ms</td><td>167 ms</td><td>167 ms</td><td align="center"><a href="javascript:change('page_details_150')"><img alt="expand/collapse" src="expand.jpg" id="page_details_150_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_150">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/exclusive"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">167</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/electronics</td><td>1</td><td>0</td><td>100.00%</td><td>167 ms</td><td>167 ms</td><td>167 ms</td><td align="center"><a href="javascript:change('page_details_151')"><img alt="expand/collapse" src="expand.jpg" id="page_details_151_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_151">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/electronics"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">167</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/home-office</td><td>1</td><td>0</td><td>100.00%</td><td>273 ms</td><td>273 ms</td><td>273 ms</td><td align="center"><a href="javascript:change('page_details_152')"><img alt="expand/collapse" src="expand.jpg" id="page_details_152_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_152">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/home-office"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">273</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/todays-deals</td><td>1</td><td>0</td><td>100.00%</td><td>200 ms</td><td>200 ms</td><td>200 ms</td><td align="center"><a href="javascript:change('page_details_153')"><img alt="expand/collapse" src="expand.jpg" id="page_details_153_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_153">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/todays-deals"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">200</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/watching_deals</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_154')"><img alt="expand/collapse" src="expand.jpg" id="page_details_154_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_154">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/watching_deals"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/upcoming_deals</td><td>1</td><td>0</td><td>100.00%</td><td>305 ms</td><td>305 ms</td><td>305 ms</td><td align="center"><a href="javascript:change('page_details_155')"><img alt="expand/collapse" src="expand.jpg" id="page_details_155_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_155">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/upcoming_deals"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">305</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/entertainment</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_156')"><img alt="expand/collapse" src="expand.jpg" id="page_details_156_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_156">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/entertainment"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/featured-brands</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_157')"><img alt="expand/collapse" src="expand.jpg" id="page_details_157_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_157">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/featured-brands"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/sports-recreation</td><td>1</td><td>0</td><td>100.00%</td><td>305 ms</td><td>305 ms</td><td>305 ms</td><td align="center"><a href="javascript:change('page_details_158')"><img alt="expand/collapse" src="expand.jpg" id="page_details_158_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_158">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/sports-recreation"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">305</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/health-beauty-family</td><td>1</td><td>0</td><td>100.00%</td><td>204 ms</td><td>204 ms</td><td>204 ms</td><td align="center"><a href="javascript:change('page_details_159')"><img alt="expand/collapse" src="expand.jpg" id="page_details_159_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_159">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/health-beauty-family"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">204</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/entertainment-leisure</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_160')"><img alt="expand/collapse" src="expand.jpg" id="page_details_160_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_160">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/entertainment-leisure"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/electronics-appliances</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_161')"><img alt="expand/collapse" src="expand.jpg" id="page_details_161_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_161">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/electronics-appliances"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/pacifiers-teething-rings</td><td>1</td><td>0</td><td>100.00%</td><td>305 ms</td><td>305 ms</td><td>305 ms</td><td align="center"><a href="javascript:change('page_details_162')"><img alt="expand/collapse" src="expand.jpg" id="page_details_162_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_162">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/pacifiers-teething-rings"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">305</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET category-hierarchy/air-fresheners-deoderizers</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_163')"><img alt="expand/collapse" src="expand.jpg" id="page_details_163_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_163">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET category-hierarchy/air-fresheners-deoderizers"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">479</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET categories/fashion</td><td>1</td><td>0</td><td>100.00%</td><td>307 ms</td><td>307 ms</td><td>307 ms</td><td align="center"><a href="javascript:change('page_details_164')"><img alt="expand/collapse" src="expand.jpg" id="page_details_164_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_164">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET categories/fashion"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">307</td><td align="right">588</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET categories/home-office</td><td>1</td><td>0</td><td>100.00%</td><td>200 ms</td><td>200 ms</td><td>200 ms</td><td align="center"><a href="javascript:change('page_details_165')"><img alt="expand/collapse" src="expand.jpg" id="page_details_165_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_165">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET categories/home-office"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">200</td><td align="right">620</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET categories/sports-recreation</td><td>1</td><td>0</td><td>100.00%</td><td>305 ms</td><td>305 ms</td><td>305 ms</td><td align="center"><a href="javascript:change('page_details_166')"><img alt="expand/collapse" src="expand.jpg" id="page_details_166_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_166">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET categories/sports-recreation"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">305</td><td align="right">612</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET categories/health-beauty-family</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_167')"><img alt="expand/collapse" src="expand.jpg" id="page_details_167_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_167">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET categories/health-beauty-family"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">624</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET categories/entertainment-leisure</td><td>1</td><td>0</td><td>100.00%</td><td>201 ms</td><td>201 ms</td><td>201 ms</td><td align="center"><a href="javascript:change('page_details_168')"><img alt="expand/collapse" src="expand.jpg" id="page_details_168_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_168">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET categories/entertainment-leisure"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">201</td><td align="right">608</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET categories/electronics-appliances</td><td>1</td><td>0</td><td>100.00%</td><td>206 ms</td><td>206 ms</td><td>206 ms</td><td align="center"><a href="javascript:change('page_details_169')"><img alt="expand/collapse" src="expand.jpg" id="page_details_169_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_169">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET categories/electronics-appliances"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">206</td><td align="right">614</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET categories/pacifiers-teething-rings</td><td>1</td><td>0</td><td>100.00%</td><td>200 ms</td><td>200 ms</td><td>200 ms</td><td align="center"><a href="javascript:change('page_details_170')"><img alt="expand/collapse" src="expand.jpg" id="page_details_170_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_170">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET categories/pacifiers-teething-rings"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">200</td><td align="right">625</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET categories/uncategorized-products</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_171')"><img alt="expand/collapse" src="expand.jpg" id="page_details_171_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_171">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET categories/uncategorized-products"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">608</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET categories/air-fresheners-deoderizers</td><td>1</td><td>0</td><td>100.00%</td><td>169 ms</td><td>169 ms</td><td>169 ms</td><td align="center"><a href="javascript:change('page_details_172')"><img alt="expand/collapse" src="expand.jpg" id="page_details_172_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_172">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET categories/air-fresheners-deoderizers"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">169</td><td align="right">627</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/toys</td><td>1</td><td>0</td><td>100.00%</td><td>168 ms</td><td>168 ms</td><td>168 ms</td><td align="center"><a href="javascript:change('page_details_173')"><img alt="expand/collapse" src="expand.jpg" id="page_details_173_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_173">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/toys"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">168</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/baby</td><td>1</td><td>0</td><td>100.00%</td><td>295 ms</td><td>295 ms</td><td>295 ms</td><td align="center"><a href="javascript:change('page_details_174')"><img alt="expand/collapse" src="expand.jpg" id="page_details_174_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_174">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/baby"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">295</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/health</td><td>1</td><td>0</td><td>100.00%</td><td>182 ms</td><td>182 ms</td><td>182 ms</td><td align="center"><a href="javascript:change('page_details_175')"><img alt="expand/collapse" src="expand.jpg" id="page_details_175_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_175">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/health"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">182</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/beauty</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_176')"><img alt="expand/collapse" src="expand.jpg" id="page_details_176_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_176">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/beauty"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/sports</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_177')"><img alt="expand/collapse" src="expand.jpg" id="page_details_177_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_177">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/sports"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/fashion</td><td>1</td><td>0</td><td>100.00%</td><td>204 ms</td><td>204 ms</td><td>204 ms</td><td align="center"><a href="javascript:change('page_details_178')"><img alt="expand/collapse" src="expand.jpg" id="page_details_178_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_178">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/fashion"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">204</td><td align="right">913</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/exclusive</td><td>1</td><td>0</td><td>100.00%</td><td>304 ms</td><td>304 ms</td><td>304 ms</td><td align="center"><a href="javascript:change('page_details_179')"><img alt="expand/collapse" src="expand.jpg" id="page_details_179_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_179">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/exclusive"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">304</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/electronics</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_180')"><img alt="expand/collapse" src="expand.jpg" id="page_details_180_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_180">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/electronics"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/home-office</td><td>1</td><td>0</td><td>100.00%</td><td>207 ms</td><td>207 ms</td><td>207 ms</td><td align="center"><a href="javascript:change('page_details_181')"><img alt="expand/collapse" src="expand.jpg" id="page_details_181_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_181">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/home-office"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">207</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/todays-deals</td><td>1</td><td>0</td><td>100.00%</td><td>203 ms</td><td>203 ms</td><td>203 ms</td><td align="center"><a href="javascript:change('page_details_182')"><img alt="expand/collapse" src="expand.jpg" id="page_details_182_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_182">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/todays-deals"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">203</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/watching_deals</td><td>1</td><td>0</td><td>100.00%</td><td>166 ms</td><td>166 ms</td><td>166 ms</td><td align="center"><a href="javascript:change('page_details_183')"><img alt="expand/collapse" src="expand.jpg" id="page_details_183_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_183">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/watching_deals"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">166</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/upcoming_deals</td><td>1</td><td>0</td><td>100.00%</td><td>168 ms</td><td>168 ms</td><td>168 ms</td><td align="center"><a href="javascript:change('page_details_184')"><img alt="expand/collapse" src="expand.jpg" id="page_details_184_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_184">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/upcoming_deals"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">168</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/entertainment</td><td>1</td><td>0</td><td>100.00%</td><td>170 ms</td><td>170 ms</td><td>170 ms</td><td align="center"><a href="javascript:change('page_details_185')"><img alt="expand/collapse" src="expand.jpg" id="page_details_185_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_185">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/entertainment"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">170</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/featured-brands</td><td>1</td><td>0</td><td>100.00%</td><td>205 ms</td><td>205 ms</td><td>205 ms</td><td align="center"><a href="javascript:change('page_details_186')"><img alt="expand/collapse" src="expand.jpg" id="page_details_186_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_186">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/featured-brands"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">205</td><td align="right">458</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/sports-recreation</td><td>1</td><td>0</td><td>100.00%</td><td>614 ms</td><td>614 ms</td><td>614 ms</td><td align="center"><a href="javascript:change('page_details_187')"><img alt="expand/collapse" src="expand.jpg" id="page_details_187_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_187">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/sports-recreation"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">614</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/health-beauty-family</td><td>1</td><td>0</td><td>100.00%</td><td>202 ms</td><td>202 ms</td><td>202 ms</td><td align="center"><a href="javascript:change('page_details_188')"><img alt="expand/collapse" src="expand.jpg" id="page_details_188_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_188">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/health-beauty-family"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">202</td><td align="right">789</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/entertainment-leisure</td><td>1</td><td>0</td><td>100.00%</td><td>204 ms</td><td>204 ms</td><td>204 ms</td><td align="center"><a href="javascript:change('page_details_189')"><img alt="expand/collapse" src="expand.jpg" id="page_details_189_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_189">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/entertainment-leisure"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">204</td><td align="right">712</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/electronics-appliances</td><td>1</td><td>0</td><td>100.00%</td><td>305 ms</td><td>305 ms</td><td>305 ms</td><td align="center"><a href="javascript:change('page_details_190')"><img alt="expand/collapse" src="expand.jpg" id="page_details_190_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_190">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/electronics-appliances"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">305</td><td align="right">709</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/pacifiers-teething-rings</td><td>1</td><td>0</td><td>100.00%</td><td>205 ms</td><td>205 ms</td><td>205 ms</td><td align="center"><a href="javascript:change('page_details_191')"><img alt="expand/collapse" src="expand.jpg" id="page_details_191_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_191">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/pacifiers-teething-rings"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">205</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/uncategorized-products</td><td>1</td><td>0</td><td>100.00%</td><td>169 ms</td><td>169 ms</td><td>169 ms</td><td align="center"><a href="javascript:change('page_details_192')"><img alt="expand/collapse" src="expand.jpg" id="page_details_192_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_192">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/uncategorized-products"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">169</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>GET banners/air-fresheners-deoderizers</td><td>1</td><td>0</td><td>100.00%</td><td>167 ms</td><td>167 ms</td><td>167 ms</td><td align="center"><a href="javascript:change('page_details_193')"><img alt="expand/collapse" src="expand.jpg" id="page_details_193_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_193">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "GET banners/air-fresheners-deoderizers"</b>
+<table width="95%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>cp-category 7-1</td><td>1</td><td align="right">167</td><td align="right">463</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<hr align="left" width="95%" size="1">
+</body>
+</html>

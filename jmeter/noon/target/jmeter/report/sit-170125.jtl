@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2057" lt="2057" ts="1485355382099" s="true" lb="GET cp-offer-management/version" rc="200" rm="OK" tn="cp-offer-management 8-1" dt="text" by="692">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2042" lt="2042" ts="1485355382111" s="true" lb="GET cp-category/health" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2048" lt="2048" ts="1485355382106" s="true" lb="GET customer-experience/search/suggested_searches AR" rc="200" rm="OK" tn="customer-experience/search 15-1" dt="text" by="495"/>
+<httpSample t="2219" lt="2219" ts="1485355382076" s="true" lb="POST user-management/user/login email" rc="200" rm="OK" tn="account 5-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2170" lt="2170" ts="1485355382119" s="true" lb="POST user-management/user/login email" rc="200" rm="OK" tn="customer-experience/returns 18-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2217" lt="2217" ts="1485355382072" s="true" lb="POST user-management/user/login email" rc="200" rm="OK" tn="seller 1-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="173" lt="173" ts="1485355384217" s="true" lb="GET cp-category/version" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="687">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="196" lt="196" ts="1485355384222" s="true" lb="GET cp-offer-management/health" rc="200" rm="OK" tn="cp-offer-management 8-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="193" lt="193" ts="1485355384394" s="true" lb="GET random-categories" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="679">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="299" lt="299" ts="1485355384336" s="true" lb="GET customer-experience/returns/returnable_items" rc="200" rm="OK" tn="customer-experience/returns 18-1" dt="text" by="675"/>
+<httpSample t="2668" lt="2668" ts="1485355382091" s="true" lb="GET microservice-auth/health" rc="200" rm="OK" tn="microservice-auth 11-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="170" lt="170" ts="1485355384590" s="true" lb="GET subcategories" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="852">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="570" lt="397" ts="1485355384217" s="true" lb="GET customer-experience/search EN" rc="200" rm="OK" tn="customer-experience/search 15-1" dt="text" by="17052"/>
+<httpSample t="2712" lt="2712" ts="1485355382088" s="true" lb="GET user-management/health" rc="200" rm="OK" tn="user-management/user 10-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2685" lt="2685" ts="1485355382120" s="true" lb="GET customer-experience/version" rc="200" rm="OK" tn="customer-experience/account 19-1" dt="text" by="693">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2720" lt="2720" ts="1485355382077" s="true" lb="GET wishlist/version" rc="200" rm="OK" tn="wishlist 3-1" dt="text" by="683">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2737" lt="2737" ts="1485355382076" s="true" lb="GET wallet/version" rc="200" rm="OK" tn="wallet 2-1" dt="text" by="682">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2730" lt="2730" ts="1485355382086" s="true" lb="GET cp-ordermanagement/version" rc="200" rm="OK" tn="cp-ordermanagement 9-1" dt="text" by="693">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2723" lt="2723" ts="1485355382098" s="true" lb="GET customer-review/version" rc="200" rm="OK" tn="customer-review 13-1" dt="text" by="688">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2727" lt="2727" ts="1485355382098" s="true" lb="GET consumer-profile/version" rc="200" rm="OK" tn="consumer-profile 12-1" dt="text" by="689">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2717" lt="2717" ts="1485355382115" s="true" lb="GET customer-experience/reviews/91331595_10000000000102_0/all" rc="200" rm="OK" tn="customer-experience/reviews 17-1" dt="text" by="463"/>
+<httpSample t="2747" lt="2747" ts="1485355382076" s="true" lb="GET cp-returns/version" rc="200" rm="OK" tn="cp-returns 6-1" dt="text" by="687">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2753" lt="2753" ts="1485355382076" s="true" lb="GET cp-cart/version" rc="200" rm="OK" tn="cp-cart 4-1" dt="text" by="684">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="174" lt="174" ts="1485355384763" s="true" lb="GET microservice-auth/version" rc="200" rm="OK" tn="microservice-auth 11-1" dt="text" by="691">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="174" lt="174" ts="1485355384765" s="true" lb="GET subcategories/toys" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2817" lt="2817" ts="1485355382123" s="true" lb="POST user-management/user/login email" rc="200" rm="OK" tn="customer-experience/inventory 20-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2857" lt="2857" ts="1485355382102" s="true" lb="POST user-management/user/login email" rc="200" rm="OK" tn="customer-experience/wallet 14-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2861" lt="2861" ts="1485355382112" s="true" lb="POST user-management/user/login email" rc="200" rm="OK" tn="customer-experience/sellers 16-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="180" lt="180" ts="1485355384804" s="true" lb="GET user-management/version" rc="200" rm="OK" tn="user-management/user 10-1" dt="text" by="688">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="172" lt="172" ts="1485355384838" s="true" lb="GET consumer-profile/health" rc="200" rm="OK" tn="consumer-profile 12-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="172" lt="172" ts="1485355384841" s="true" lb="GET cp-cart/health" rc="200" rm="OK" tn="cp-cart 4-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="193" lt="193" ts="1485355384822" s="true" lb="GET cp-ordermanagement/health" rc="200" rm="OK" tn="cp-ordermanagement 9-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="192" lt="192" ts="1485355384827" s="true" lb="GET customer-review/health" rc="200" rm="OK" tn="customer-review 13-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="209" lt="209" ts="1485355384812" s="true" lb="GET customer-experience/health" rc="200" rm="OK" tn="customer-experience/account 19-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="196" lt="196" ts="1485355384820" s="true" lb="GET wallet/health" rc="200" rm="OK" tn="wallet 2-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="210" lt="210" ts="1485355384837" s="true" lb="GET cp-returns/health" rc="200" rm="OK" tn="cp-returns 6-1" dt="text" by="482">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="173" lt="173" ts="1485355384940" s="true" lb="GET subcategories/baby" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="191" lt="191" ts="1485355384964" s="true" lb="GET customer-experience/wallet/payment_instruments" rc="200" rm="OK" tn="customer-experience/wallet 14-1" dt="text" by="663"/>
+<httpSample t="174" lt="174" ts="1485355385022" s="true" lb="GET customer-review/reviews/91331595_10000000000102_0" rc="200" rm="OK" tn="customer-review 13-1" dt="text" by="463"/>
+<httpSample t="171" lt="171" ts="1485355385117" s="true" lb="GET subcategories/health" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="548" lt="388" ts="1485355384790" s="true" lb="GET customer-experience/search AR" rc="200" rm="OK" tn="customer-experience/search 15-1" dt="text" by="16822"/>
+<httpSample t="172" lt="172" ts="1485355385199" s="true" lb="GET customer-review/reviews/brief" rc="200" rm="OK" tn="customer-review 13-1" dt="text" by="463"/>
+<httpSample t="231" lt="231" ts="1485355385159" s="true" lb="GET customer-experience/wallet/instruments" rc="200" rm="OK" tn="customer-experience/wallet 14-1" dt="text" by="663"/>
+<httpSample t="471" lt="471" ts="1485355384943" s="true" lb="GET seller/sellers" rc="200" rm="OK" tn="customer-experience/inventory 20-1" dt="text" by="924"/>
+<httpSample t="436" lt="436" ts="1485355384979" s="true" lb="GET seller/sellers" rc="200" rm="OK" tn="customer-experience/sellers 16-1" dt="text" by="924"/>
+<httpSample t="1077" lt="1077" ts="1485355384339" s="true" lb="GET seller/sellers" rc="200" rm="OK" tn="seller 1-1" dt="text" by="924"/>
+<httpSample t="482" lt="482" ts="1485355384938" s="true" lb="POST microservice-auth/token" rc="200" rm="OK" tn="microservice-auth 11-1" dt="text" by="1243">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="409" lt="409" ts="1485355385024" s="true" lb="POST user-management/user/login email" rc="200" rm="OK" tn="customer-experience/account 19-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="419" lt="419" ts="1485355385026" s="true" lb="POST user-management/user/login" rc="200" rm="OK" tn="wallet 2-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="166" lt="166" ts="1485355385292" s="true" lb="GET subcategories/beauty" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="483" lt="483" ts="1485355385022" s="true" lb="POST user-management/user/login" rc="200" rm="OK" tn="cp-ordermanagement 9-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="503" lt="503" ts="1485355385012" s="true" lb="POST user-management/user/login mobile" rc="200" rm="OK" tn="consumer-profile 12-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="518" lt="518" ts="1485355385050" s="true" lb="POST user-management/user/login email" rc="200" rm="OK" tn="cp-returns 6-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="179" lt="179" ts="1485355385439" s="true" lb="GET customer-experience/account/one_click_setting" rc="200" rm="OK" tn="customer-experience/account 19-1" dt="text" by="721">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="168" lt="168" ts="1485355385460" s="true" lb="GET subcategories/sports" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="168" lt="168" ts="1485355385454" s="true" lb="GET wallet/wallet" rc="200" rm="OK" tn="wallet 2-1" dt="text" by="680">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="265" lt="265" ts="1485355385420" s="true" lb="GET seller/sellers/3914851640" rc="200" rm="OK" tn="seller 1-1" dt="text" by="922"/>
+<httpSample t="170" lt="170" ts="1485355385522" s="true" lb="GET consumer-profile/consumers" rc="200" rm="OK" tn="consumer-profile 12-1" dt="text" by="885">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="284" lt="284" ts="1485355385419" s="true" lb="GET customer-experience/sellers/3914851640/offers" rc="200" rm="OK" tn="customer-experience/sellers 16-1" dt="text" by="527"/>
+<httpSample t="299" lt="299" ts="1485355385418" s="true" lb="GET customer-experience/inventory/products" rc="200" rm="OK" tn="customer-experience/inventory 20-1" dt="text" by="1865"/>
+<httpSample t="170" lt="170" ts="1485355385577" s="true" lb="GET cp-returns/return-order/customer-id/b2171846-5ec1-4026-a0eb-1b49d45744b2" rc="200" rm="OK" tn="cp-returns 6-1" dt="text" by="481"/>
+<httpSample t="169" lt="169" ts="1485355385635" s="true" lb="GET subcategories/fashion" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="804">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="168" lt="168" ts="1485355385637" s="true" lb="GET wallet/wallet/transactions" rc="200" rm="OK" tn="wallet 2-1" dt="text" by="1234">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="854" lt="854" ts="1485355384986" s="true" lb="POST user-management/user/account email" rc="201" rm="Created" tn="user-management/user 10-1" dt="text" by="514">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="172" lt="172" ts="1485355385694" s="true" lb="GET consumer-profile/consumers/5c55afb5-3f89-44b5-a87b-0696b6133d79/public_info" rc="200" rm="OK" tn="consumer-profile 12-1" dt="text" by="542">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="227" lt="227" ts="1485355385686" s="true" lb="GET seller/sellers/3914851640" rc="200" rm="OK" tn="seller 1-1" dt="text" by="922"/>
+<httpSample t="230" lt="230" ts="1485355385703" s="true" lb="GET customer-experience/sellers/3914851640/offers-count" rc="200" rm="OK" tn="customer-experience/sellers 16-1" dt="text" by="541"/>
+<httpSample t="166" lt="166" ts="1485355385805" s="true" lb="GET subcategories/exclusive" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="171" lt="171" ts="1485355385806" s="true" lb="GET wallet/wallet/transactions-with-instruments" rc="200" rm="OK" tn="wallet 2-1" dt="text" by="1426">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="173" lt="173" ts="1485355385869" s="true" lb="GET consumer-profile/account/addresses" rc="200" rm="OK" tn="consumer-profile 12-1" dt="text" by="753">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="220" lt="220" ts="1485355385915" s="true" lb="GET seller/sellers/3914851640/offers" rc="200" rm="OK" tn="seller 1-1" dt="text" by="463"/>
+<httpSample t="166" lt="166" ts="1485355385975" s="true" lb="GET subcategories/electronics" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="211" lt="211" ts="1485355385935" s="true" lb="GET customer-experience/sellers/3914851640/bulk-offers/sheet" rc="200" rm="OK" tn="customer-experience/sellers 16-1" dt="text" by="700"/>
+<httpSample t="350" lt="350" ts="1485355385842" s="true" lb="POST user-management/user/account mobile" rc="201" rm="Created" tn="user-management/user 10-1" dt="text" by="514">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="175" lt="175" ts="1485355386047" s="true" lb="POST consumer-profile/account/addresses/default" rc="204" rm="No Content" tn="consumer-profile 12-1" dt="" by="418"/>
+<httpSample t="177" lt="177" ts="1485355386144" s="true" lb="GET subcategories/home-office" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="994">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="216" lt="216" ts="1485355386137" s="true" lb="GET seller/sellers/3914851640/bank-details" rc="200" rm="OK" tn="seller 1-1" dt="text" by="635"/>
+<httpSample t="226" lt="226" ts="1485355386150" s="true" lb="GET customer-experience/sellers/3914851640/offers/search" rc="200" rm="OK" tn="customer-experience/sellers 16-1" dt="text" by="527"/>
+<httpSample t="171" lt="171" ts="1485355386224" s="true" lb="POST consumer-profile/account/addresses/deliverable" rc="204" rm="No Content" tn="consumer-profile 12-1" dt="" by="418"/>
+<httpSample t="439" lt="439" ts="1485355385981" s="true" lb="POST microservice-auth/token" rc="200" rm="OK" tn="wallet 2-1" dt="text" by="1245">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="795" lt="471" ts="1485355385631" s="true" lb="GET customer-experience/account/myorders" rc="200" rm="OK" tn="customer-experience/account 19-1" dt="text" by="25967"/>
+<httpSample t="296" lt="296" ts="1485355386194" s="true" lb="POST user-management/user/login mobile" rc="200" rm="OK" tn="user-management/user 10-1" dt="text" by="1095">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="166" lt="166" ts="1485355386325" s="true" lb="GET subcategories/todays-deals" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="173" lt="173" ts="1485355386396" s="true" lb="PUT consumer-profile/account/language_preference" rc="204" rm="No Content" tn="consumer-profile 12-1" dt="" by="418"/>
+<httpSample t="215" lt="215" ts="1485355386355" s="true" lb="GET seller/sellers/3914851640/identification-document" rc="200" rm="OK" tn="seller 1-1" dt="text" by="615"/>
+<httpSample t="170" lt="170" ts="1485355386422" s="true" lb="GET wallet/wallets/b2171846-5ec1-4026-a0eb-1b49d45744b2" rc="200" rm="OK" tn="wallet 2-1" dt="text" by="680"/>
+<httpSample t="230" lt="230" ts="1485355386377" s="true" lb="GET customer-experience/sellers/3914851640/order/search" rc="200" rm="OK" tn="customer-experience/sellers 16-1" dt="text" by="527"/>
+<httpSample t="165" lt="165" ts="1485355386492" s="true" lb="GET subcategories/watching_deals" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="169" lt="169" ts="1485355386491" s="true" lb="POST user-management/user/renew" rc="200" rm="OK" tn="user-management/user 10-1" dt="text" by="847">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="172" lt="172" ts="1485355386595" s="true" lb="GET wallet/wallets/b2171846-5ec1-4026-a0eb-1b49d45744b2/transactions" rc="200" rm="OK" tn="wallet 2-1" dt="text" by="1262"/>
+<httpSample t="324" lt="324" ts="1485355386453" s="true" lb="GET customer-experience/account/myorders/45d1d5f0-fd6e-4a44-ad32-4d13e7564585" rc="200" rm="OK" tn="customer-experience/account 19-1" dt="text" by="933">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="207" lt="207" ts="1485355386572" s="true" lb="GET seller/sellers/3914851640/company-registration-document" rc="200" rm="OK" tn="seller 1-1" dt="text" by="619"/>
+<httpSample t="165" lt="165" ts="1485355386658" s="true" lb="GET subcategories/upcoming_deals" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="169" lt="169" ts="1485355386661" s="true" lb="GET user-management/user/5c55afb5-3f89-44b5-a87b-0696b6133d79" rc="200" rm="OK" tn="user-management/user 10-1" dt="text" by="599">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="224" lt="224" ts="1485355386611" s="true" lb="GET customer-experience/sellers/3914851640/payments/transactions/search" rc="200" rm="OK" tn="customer-experience/sellers 16-1" dt="text" by="527"/>
+<httpSample t="1345" lt="370" ts="1485355385514" s="true" lb="GET cp-ordermanagement/consumers/b2171846-5ec1-4026-a0eb-1b49d45744b2/orders" rc="200" rm="OK" tn="cp-ordermanagement 9-1" dt="text" by="85688"/>
+<httpSample t="198" lt="198" ts="1485355386782" s="true" lb="GET seller/sellers/3914851640/cancelled-cheque" rc="200" rm="OK" tn="seller 1-1" dt="text" by="600"/>
+<httpSample t="168" lt="168" ts="1485355386824" s="true" lb="GET subcategories/entertainment" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="1658" lt="138" ts="1485355385340" s="true" lb="POST cp-web-sit.nextcake.net/search EN" rc="200" rm="OK" tn="customer-experience/search 15-1" dt="text" by="3958">
+  <httpSample t="138" lt="138" ts="1485355385340" s="true" lb="https://cp-web-sit.nextcake.net/search" rc="301" rm="Moved Permanently" tn="" dt="text" by="399"/>
+  <httpSample t="139" lt="139" ts="1485355385479" s="true" lb="https://cp-web-sit.nextcake.net/search/" rc="200" rm="OK" tn="customer-experience/search 15-1" dt="text" by="1859"/>
+  <httpSample t="1364" lt="1363" ts="1485355385634" s="true" lb="https://cdn.trackjs.com/releases/current/tracker.js" rc="200" rm="OK" tn="customer-experience/search 15-1" dt="text" by="8668"/>
+</httpSample>
+<httpSample t="295" lt="295" ts="1485355386832" s="true" lb="POST user-management/user/login email" rc="200" rm="OK" tn="user-management/user 10-1" dt="text" by="1096">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="246" lt="246" ts="1485355386895" s="true" lb="GET cp-ordermanagement/orders/8f152ede-01dd-4443-8f65-06a21d9ba47b" rc="200" rm="OK" tn="cp-ordermanagement 9-1" dt="text" by="1143">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="166" lt="166" ts="1485355386997" s="true" lb="GET subcategories/featured-brands" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="166" lt="166" ts="1485355387130" s="true" lb="GET user-management/user/b2171846-5ec1-4026-a0eb-1b49d45744b2" rc="200" rm="OK" tn="user-management/user 10-1" dt="text" by="602">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="169" lt="169" ts="1485355387166" s="true" lb="GET subcategories/sports-recreation" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="926">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="257" lt="257" ts="1485355387143" s="true" lb="GET cp-ordermanagement/consumers/b2171846-5ec1-4026-a0eb-1b49d45744b2/returnableItems" rc="200" rm="OK" tn="cp-ordermanagement 9-1" dt="text" by="463"/>
+<httpSample t="174" lt="174" ts="1485355387297" s="true" lb="POST user-management/user/logout" rc="200" rm="OK" tn="user-management/user 10-1" dt="" by="553">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="169" lt="169" ts="1485355387337" s="true" lb="GET subcategories/health-beauty-family" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="760">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="611" lt="136" ts="1485355387001" s="true" lb="POST cp-web-sit.nextcake.net/ar/search AR" rc="200" rm="OK" tn="customer-experience/search 15-1" dt="text" by="3958">
+  <httpSample t="136" lt="136" ts="1485355387001" s="true" lb="https://cp-web-sit.nextcake.net/ar/search" rc="301" rm="Moved Permanently" tn="" dt="text" by="402"/>
+  <httpSample t="137" lt="136" ts="1485355387137" s="true" lb="https://cp-web-sit.nextcake.net/ar/search/" rc="200" rm="OK" tn="customer-experience/search 15-1" dt="text" by="1859"/>
+  <httpSample t="334" lt="334" ts="1485355387278" s="true" lb="https://cdn.trackjs.com/releases/current/tracker.js" rc="200" rm="OK" tn="customer-experience/search 15-1" dt="text" by="8668"/>
+</httpSample>
+<httpSample t="166" lt="166" ts="1485355387506" s="true" lb="GET subcategories/entertainment-leisure" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="735">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="336" lt="336" ts="1485355387476" s="true" lb="POST user-management/user/social/facebook" rc="200" rm="OK" tn="user-management/user 10-1" dt="text" by="1098"/>
+<httpSample t="169" lt="169" ts="1485355387675" s="true" lb="GET subcategories/electronics-appliances" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="702">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="172" lt="172" ts="1485355387815" s="true" lb="POST user-management/user/logout" rc="200" rm="OK" tn="user-management/user 10-1" dt="" by="553">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="168" lt="168" ts="1485355387846" s="true" lb="GET subcategories/pacifiers-teething-rings" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="224" lt="224" ts="1485355388017" s="true" lb="GET subcategories/uncategorized-products" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="762">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="304" lt="304" ts="1485355388244" s="true" lb="GET subcategories/air-fresheners-deoderizers" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="4220" lt="809" ts="1485355384335" s="true" lb="GET cp-web-sit.nextcake.net/account/orders" rc="200" rm="OK" tn="account 5-1" dt="text" by="3958">
+  <httpSample t="809" lt="809" ts="1485355384335" s="true" lb="https://cp-web-sit.nextcake.net/account/orders/" rc="200" rm="OK" tn="account 5-1" dt="text" by="1859"/>
+  <httpSample t="3234" lt="3230" ts="1485355385321" s="true" lb="https://cdn.trackjs.com/releases/current/tracker.js" rc="200" rm="OK" tn="account 5-1" dt="text" by="8668"/>
+</httpSample>
+<httpSample t="204" lt="204" ts="1485355388550" s="true" lb="GET subcategories/toys/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="167" lt="167" ts="1485355388757" s="true" lb="GET subcategories/baby/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="166" lt="166" ts="1485355388926" s="true" lb="GET subcategories/health/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="376" lt="376" ts="1485355389094" s="true" lb="GET subcategories/beauty/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355389472" s="true" lb="GET subcategories/sports/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="203" lt="203" ts="1485355389677" s="true" lb="GET subcategories/fashion/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="2133">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="203" lt="203" ts="1485355389883" s="true" lb="GET subcategories/exclusive/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="198" lt="198" ts="1485355390090" s="true" lb="GET subcategories/electronics/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="207" lt="206" ts="1485355390289" s="true" lb="GET subcategories/home-office/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="3292">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="199" lt="199" ts="1485355390499" s="true" lb="GET subcategories/todays-deals/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="170" lt="170" ts="1485355390701" s="true" lb="GET subcategories/watching_deals/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="234" lt="234" ts="1485355390874" s="true" lb="GET subcategories/upcoming_deals/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="201" lt="201" ts="1485355391111" s="true" lb="GET subcategories/entertainment/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355391315" s="true" lb="GET subcategories/featured-brands/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="169" lt="169" ts="1485355391520" s="true" lb="GET subcategories/sports-recreation/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="1969">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="339" lt="339" ts="1485355391692" s="true" lb="GET subcategories/health-beauty-family/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="1693">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="205" lt="205" ts="1485355392034" s="true" lb="GET subcategories/entertainment-leisure/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="2493">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="200" lt="200" ts="1485355392242" s="true" lb="GET subcategories/electronics-appliances/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="1121">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="200" lt="200" ts="1485355392444" s="true" lb="GET subcategories/pacifiers-teething-rings/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="167" lt="167" ts="1485355392646" s="true" lb="GET subcategories/uncategorized-products/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="762">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="238" lt="238" ts="1485355392817" s="true" lb="GET subcategories/air-fresheners-deoderizers/leaf" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="201" lt="201" ts="1485355393057" s="true" lb="GET subcategories/toys/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355393261" s="true" lb="GET subcategories/baby/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="203" lt="203" ts="1485355393465" s="true" lb="GET subcategories/health/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355393671" s="true" lb="GET subcategories/beauty/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="201" lt="201" ts="1485355393876" s="true" lb="GET subcategories/sports/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="170" lt="169" ts="1485355394080" s="true" lb="GET subcategories/fashion/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="2323">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="168" lt="168" ts="1485355394252" s="true" lb="GET subcategories/exclusive/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="372" lt="372" ts="1485355394422" s="true" lb="GET subcategories/electronics/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="207" lt="207" ts="1485355394797" s="true" lb="GET subcategories/home-office/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="3573">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="197" lt="197" ts="1485355395007" s="true" lb="GET subcategories/todays-deals/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="305" lt="305" ts="1485355395206" s="true" lb="GET subcategories/watching_deals/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="203" lt="203" ts="1485355395513" s="true" lb="GET subcategories/upcoming_deals/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="203" lt="203" ts="1485355395719" s="true" lb="GET subcategories/entertainment/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="303" lt="303" ts="1485355395925" s="true" lb="GET subcategories/featured-brands/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="205" lt="205" ts="1485355396230" s="true" lb="GET subcategories/sports-recreation/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="2197">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355396438" s="true" lb="GET subcategories/health-beauty-family/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="1811">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="204" lt="204" ts="1485355396642" s="true" lb="GET subcategories/entertainment-leisure/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="2593">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="200" lt="199" ts="1485355396848" s="true" lb="GET subcategories/electronics-appliances/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="1188">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="304" lt="304" ts="1485355397050" s="true" lb="GET subcategories/pacifiers-teething-rings/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="203" lt="203" ts="1485355397356" s="true" lb="GET subcategories/uncategorized-products/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="762">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="203" lt="203" ts="1485355397561" s="true" lb="GET subcategories/air-fresheners-deoderizers/all" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="203" lt="203" ts="1485355397766" s="true" lb="GET category-hierarchy/toys" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="204" lt="204" ts="1485355397971" s="true" lb="GET category-hierarchy/baby" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="309" lt="309" ts="1485355398178" s="true" lb="GET category-hierarchy/health" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="196" lt="196" ts="1485355398489" s="true" lb="GET category-hierarchy/beauty" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="205" lt="205" ts="1485355398688" s="true" lb="GET category-hierarchy/sports" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="303" lt="303" ts="1485355398896" s="true" lb="GET category-hierarchy/fashion" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="167" lt="167" ts="1485355399201" s="true" lb="GET category-hierarchy/exclusive" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="167" lt="167" ts="1485355399370" s="true" lb="GET category-hierarchy/electronics" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="273" lt="273" ts="1485355399539" s="true" lb="GET category-hierarchy/home-office" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="200" lt="200" ts="1485355399816" s="true" lb="GET category-hierarchy/todays-deals" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355400019" s="true" lb="GET category-hierarchy/watching_deals" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="305" lt="305" ts="1485355400223" s="true" lb="GET category-hierarchy/upcoming_deals" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355400531" s="true" lb="GET category-hierarchy/entertainment" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355400736" s="true" lb="GET category-hierarchy/featured-brands" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="305" lt="305" ts="1485355400940" s="true" lb="GET category-hierarchy/sports-recreation" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="204" lt="204" ts="1485355401246" s="true" lb="GET category-hierarchy/health-beauty-family" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355401453" s="true" lb="GET category-hierarchy/entertainment-leisure" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355401658" s="true" lb="GET category-hierarchy/electronics-appliances" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="305" lt="305" ts="1485355401862" s="true" lb="GET category-hierarchy/pacifiers-teething-rings" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="203" lt="203" ts="1485355402169" s="true" lb="GET category-hierarchy/air-fresheners-deoderizers" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="479">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="307" lt="307" ts="1485355402374" s="true" lb="GET categories/fashion" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="588">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="200" lt="200" ts="1485355402684" s="true" lb="GET categories/home-office" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="620">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="305" lt="305" ts="1485355402887" s="true" lb="GET categories/sports-recreation" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="612">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="203" lt="203" ts="1485355403194" s="true" lb="GET categories/health-beauty-family" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="624">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="201" lt="200" ts="1485355403400" s="true" lb="GET categories/entertainment-leisure" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="608">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="206" lt="206" ts="1485355403602" s="true" lb="GET categories/electronics-appliances" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="614">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="200" lt="200" ts="1485355403810" s="true" lb="GET categories/pacifiers-teething-rings" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="625">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1485355404012" s="true" lb="GET categories/uncategorized-products" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="608">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="169" lt="169" ts="1485355404215" s="true" lb="GET categories/air-fresheners-deoderizers" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="627">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="168" lt="168" ts="1485355404386" s="true" lb="GET banners/toys" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="295" lt="295" ts="1485355404555" s="true" lb="GET banners/baby" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="182" lt="182" ts="1485355404853" s="true" lb="GET banners/health" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="202" lt="202" ts="1485355405037" s="true" lb="GET banners/beauty" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="202" lt="202" ts="1485355405241" s="true" lb="GET banners/sports" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="204" lt="204" ts="1485355405445" s="true" lb="GET banners/fashion" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="913"/>
+<httpSample t="304" lt="304" ts="1485355405651" s="true" lb="GET banners/exclusive" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="203" lt="203" ts="1485355405957" s="true" lb="GET banners/electronics" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="207" lt="207" ts="1485355406160" s="true" lb="GET banners/home-office" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="203" lt="203" ts="1485355406369" s="true" lb="GET banners/todays-deals" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="166" lt="166" ts="1485355406573" s="true" lb="GET banners/watching_deals" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="168" lt="168" ts="1485355406741" s="true" lb="GET banners/upcoming_deals" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="170" lt="170" ts="1485355406911" s="true" lb="GET banners/entertainment" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="205" lt="205" ts="1485355407082" s="true" lb="GET banners/featured-brands" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="458"/>
+<httpSample t="614" lt="614" ts="1485355407288" s="true" lb="GET banners/sports-recreation" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="202" lt="202" ts="1485355407904" s="true" lb="GET banners/health-beauty-family" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="789"/>
+<httpSample t="204" lt="204" ts="1485355408107" s="true" lb="GET banners/entertainment-leisure" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="712"/>
+<httpSample t="305" lt="305" ts="1485355408314" s="true" lb="GET banners/electronics-appliances" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="709"/>
+<httpSample t="205" lt="205" ts="1485355408620" s="true" lb="GET banners/pacifiers-teething-rings" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="169" lt="169" ts="1485355408827" s="true" lb="GET banners/uncategorized-products" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+<httpSample t="167" lt="167" ts="1485355408997" s="true" lb="GET banners/air-fresheners-deoderizers" rc="200" rm="OK" tn="cp-category 7-1" dt="text" by="463"/>
+
+</testResults>

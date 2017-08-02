@@ -1,0 +1,163 @@
+2017/01/25 18:43:01 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: Loading user properties from: /home/mahmoud/Downloads/apache-maven-3.3.9/noon/target/jmeter/bin/user.properties 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: Loading system properties from: /home/mahmoud/Downloads/apache-maven-3.3.9/noon/target/jmeter/bin/system.properties 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: Copyright (c) 1998-2012 The Apache Software Foundation 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: Version 2.6 r1237317 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: java.version=1.8.0_111 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: os.name=Linux 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: os.arch=amd64 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: os.version=4.4.0-59-generic 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: JMeterHome=/home/mahmoud/Downloads/apache-maven-3.3.9/noon/target/jmeter 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: user.dir  =/home/mahmoud/Downloads/apache-maven-3.3.9/noon/target/jmeter/bin 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: PWD       =/home/mahmoud/Downloads/apache-maven-3.3.9/noon/target/jmeter/bin 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: mahmoud-ThinkPad-T460 FullName: mahmoud-ThinkPad-T460 
+2017/01/25 18:43:01 INFO  - jmeter.services.FileServer: Default base='/home/mahmoud/Downloads/apache-maven-3.3.9/noon/target/jmeter/bin' 
+2017/01/25 18:43:01 INFO  - jmeter.services.FileServer: Set new base='/home/mahmoud/Downloads/apache-maven-3.3.9/noon/src/test/jmeter' 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: Loading file: /home/mahmoud/Downloads/apache-maven-3.3.9/noon/src/test/jmeter/sit.jmx 
+2017/01/25 18:43:01 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2017/01/25 18:43:01 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2017/01/25 18:43:01 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1234216 
+2017/01/25 18:43:01 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.2 
+2017/01/25 18:43:01 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2017/01/25 18:43:01 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2017/01/25 18:43:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2017/01/25 18:43:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2017/01/25 18:43:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2017/01/25 18:43:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2017/01/25 18:43:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2017/01/25 18:43:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2017/01/25 18:43:01 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Reuse SSL session context on subsequent iterations: true 
+2017/01/25 18:43:01 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2017/01/25 18:43:01 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2017/01/25 18:43:01 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2017/01/25 18:43:01 INFO  - jmeter.JMeter: Running test (1485355381961) 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group seller. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group wallet. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: seller 1-1 
+2017/01/25 18:43:02 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Maximum connection retries = 10 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group wishlist. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: wallet 2-1 
+2017/01/25 18:43:02 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2017/01/25 18:43:02 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2017/01/25 18:43:02 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2017/01/25 18:43:02 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group cp-cart. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group account. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: wishlist 3-1 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: cp-cart 4-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group cp-returns. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: account 5-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group cp-category. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: cp-returns 6-1 
+2017/01/25 18:43:02 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2017/01/25 18:43:02 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group cp-offer-management. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group cp-ordermanagement. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group user-management/user. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: cp-ordermanagement 9-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group microservice-auth. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: user-management/user 10-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group consumer-profile. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: microservice-auth 11-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group customer-review. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group customer-experience/wallet. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: consumer-profile 12-1 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: customer-review 13-1 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: cp-offer-management 8-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group customer-experience/search. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: customer-experience/wallet 14-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group customer-experience/sellers. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: customer-experience/search 15-1 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: cp-category 7-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group customer-experience/reviews. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: customer-experience/sellers 16-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group customer-experience/returns. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: customer-experience/reviews 17-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group customer-experience/account. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: customer-experience/returns 18-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group customer-experience/inventory. 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: customer-experience/account 19-1 
+2017/01/25 18:43:02 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2017/01/25 18:43:02 INFO  - jmeter.threads.JMeterThread: Thread started: customer-experience/inventory 20-1 
+2017/01/25 18:43:02 INFO  - jmeter.util.SSLManager: JmeterKeyStore Location:  type JKS 
+2017/01/25 18:43:02 INFO  - jmeter.util.SSLManager: JmeterKeyStore Location:  type JKS 
+2017/01/25 18:43:02 INFO  - jmeter.util.SSLManager: JmeterKeyStore Location:  type JKS 
+2017/01/25 18:43:02 INFO  - jmeter.util.SSLManager: JmeterKeyStore Location:  type JKS 
+2017/01/25 18:43:02 INFO  - jmeter.util.SSLManager: KeyStore created OK 
+2017/01/25 18:43:02 WARN  - jmeter.util.SSLManager: Keystore file not found, loading empty keystore 
+2017/01/25 18:43:02 INFO  - jmeter.util.SSLManager: KeyStore created OK 
+2017/01/25 18:43:02 WARN  - jmeter.util.SSLManager: Keystore file not found, loading empty keystore 
+2017/01/25 18:43:02 INFO  - jmeter.util.SSLManager: KeyStore created OK 
+2017/01/25 18:43:02 WARN  - jmeter.util.SSLManager: Keystore file not found, loading empty keystore 
+2017/01/25 18:43:02 INFO  - jmeter.util.SSLManager: KeyStore created OK 
+2017/01/25 18:43:02 WARN  - jmeter.util.SSLManager: Keystore file not found, loading empty keystore 
+2017/01/25 18:43:04 INFO  - jmeter.threads.JMeterThread: Thread finished: cp-offer-management 8-1 
+2017/01/25 18:43:04 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread cp-offer-management 8-1 
+2017/01/25 18:43:04 INFO  - jmeter.threads.JMeterThread: Thread finished: customer-experience/returns 18-1 
+2017/01/25 18:43:04 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread customer-experience/returns 18-1 
+2017/01/25 18:43:04 INFO  - jmeter.threads.JMeterThread: Thread finished: wishlist 3-1 
+2017/01/25 18:43:04 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread wishlist 3-1 
+2017/01/25 18:43:04 INFO  - jmeter.threads.JMeterThread: Thread finished: customer-experience/reviews 17-1 
+2017/01/25 18:43:04 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread customer-experience/reviews 17-1 
+2017/01/25 18:43:05 INFO  - jmeter.threads.JMeterThread: Thread finished: cp-cart 4-1 
+2017/01/25 18:43:05 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread cp-cart 4-1 
+2017/01/25 18:43:05 INFO  - jmeter.protocol.http.parser.HtmlParserHTMLParser: Using htmlparser version: 2.0 (Release Build Sep 17, 2006) 
+2017/01/25 18:43:05 INFO  - jmeter.protocol.http.parser.HTMLParser: Created org.apache.jmeter.protocol.http.parser.HtmlParserHTMLParser 
+2017/01/25 18:43:05 INFO  - jmeter.threads.JMeterThread: Thread finished: customer-review 13-1 
+2017/01/25 18:43:05 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread customer-review 13-1 
+2017/01/25 18:43:05 INFO  - jmeter.threads.JMeterThread: Thread finished: customer-experience/wallet 14-1 
+2017/01/25 18:43:05 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread customer-experience/wallet 14-1 
+2017/01/25 18:43:05 INFO  - jmeter.threads.JMeterThread: Thread finished: microservice-auth 11-1 
+2017/01/25 18:43:05 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread microservice-auth 11-1 
+2017/01/25 18:43:05 INFO  - jmeter.threads.JMeterThread: Thread finished: customer-experience/inventory 20-1 
+2017/01/25 18:43:05 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread customer-experience/inventory 20-1 
+2017/01/25 18:43:05 INFO  - jmeter.threads.JMeterThread: Thread finished: cp-returns 6-1 
+2017/01/25 18:43:05 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread cp-returns 6-1 
+2017/01/25 18:43:06 INFO  - jmeter.threads.JMeterThread: Thread finished: consumer-profile 12-1 
+2017/01/25 18:43:06 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread consumer-profile 12-1 
+2017/01/25 18:43:06 INFO  - jmeter.threads.JMeterThread: Thread finished: wallet 2-1 
+2017/01/25 18:43:06 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread wallet 2-1 
+2017/01/25 18:43:06 INFO  - jmeter.threads.JMeterThread: Thread finished: customer-experience/account 19-1 
+2017/01/25 18:43:06 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread customer-experience/account 19-1 
+2017/01/25 18:43:06 INFO  - jmeter.threads.JMeterThread: Thread finished: customer-experience/sellers 16-1 
+2017/01/25 18:43:06 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread customer-experience/sellers 16-1 
+2017/01/25 18:43:06 INFO  - jmeter.threads.JMeterThread: Thread finished: seller 1-1 
+2017/01/25 18:43:06 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread seller 1-1 
+2017/01/25 18:43:07 INFO  - jmeter.threads.JMeterThread: Thread finished: cp-ordermanagement 9-1 
+2017/01/25 18:43:07 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread cp-ordermanagement 9-1 
+2017/01/25 18:43:07 INFO  - jmeter.threads.JMeterThread: Thread finished: customer-experience/search 15-1 
+2017/01/25 18:43:07 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread customer-experience/search 15-1 
+2017/01/25 18:43:07 INFO  - jmeter.threads.JMeterThread: Thread finished: user-management/user 10-1 
+2017/01/25 18:43:07 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread user-management/user 10-1 
+2017/01/25 18:43:08 INFO  - jmeter.threads.JMeterThread: Thread finished: account 5-1 
+2017/01/25 18:43:08 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread account 5-1 
+2017/01/25 18:43:29 INFO  - jmeter.threads.JMeterThread: Thread finished: cp-category 7-1 
+2017/01/25 18:43:29 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread cp-category 7-1 
+2017/01/25 18:43:29 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2017/01/25 18:43:29 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended on host null 
